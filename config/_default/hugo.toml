@@ -1,7 +1,7 @@
 ## Base URL for the site
-baseURL = 'https://foxihd.github.io/hugo-brewm/'
+baseURL = 'https://alangsr12.github.io/boue'
 ## Site title
-title = 'Example'
+title = 'BOÜE'
 ## Use hugo-brewm theme
 theme = 'hugo-brewm'
 ## Enable Git information for pages, (e.g. lastMod date information)
