@@ -1,7 +1,7 @@
 +++
 title = "Bienvenidos a mi Jardín Digital"
 date = "2026-05-01"
-author = ["Tu Nombre"]
+author = "alan"
 type = "post"
 draft = false
 coffee = 1

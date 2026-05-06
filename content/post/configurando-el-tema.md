@@ -1,7 +1,7 @@
 +++
 title = "Cómo personalizar colores y logos"
 date = "2026-05-02"
-author = ["Tu Nombre"]
+author = "alan"
 type = "post"
 draft = false
 coffee = 2

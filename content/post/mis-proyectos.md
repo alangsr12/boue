@@ -1,6 +1,7 @@
 +++
 title = "Portafolio de Proyectos"
 date = "2026-05-03"
+author = "alan"
 type = "post"
 stage = "evergreen"
 +++

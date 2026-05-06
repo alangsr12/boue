@@ -1,6 +1,7 @@
 +++
 title = "Mi gran artículo"
 date = "2024-01-01"
+author = "alan"
 type = "post"
 categories = ["Configuration"]  # <--- ESTO activa los cuadros
 pinned = true
