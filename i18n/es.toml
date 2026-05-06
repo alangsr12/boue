@@ -1,5 +1,8 @@
-[post_meta_in]
-other = " en "
+[in]
+other = "en"
+
+[posted_in]
+other = "publicado en"
 
 [post_meta_last_updated]
 other = "Actualizado el"
