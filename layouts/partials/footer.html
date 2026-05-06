@@ -57,8 +57,15 @@
         {{- if or $unif $stat }}
             <div id="unified-footer">
                 {{- if $unif }}
-                    {{- $copyright := or site.Copyright site.Params.copyright site.Params.license }}
-                    {{- with $copyright -}}
+            {{/* Definimos el nombre desde tus parámetros de autor */}}
+            {{- $authorName := site.Params.author.name | default "Autor" -}}
+    
+            {{/* Generamos el año actual automáticamente */}}
+            {{- $currentYear := now.Format "2006" -}}
+            
+            {{/* Construimos la frase final */}}
+            {{- $copyright := printf "Copyleft %s © %s" $currentYear $authorName -}}
+                        {{- with $copyright -}}
                         <p id="license">{{ markdownify . }}</p>
                     {{- end }}
                     {{ partial "menu.html" ( dict "page" $page "menuID" "footer") }}

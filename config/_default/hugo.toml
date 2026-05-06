@@ -141,11 +141,10 @@ enableRobotsTXT = true
     ## Merge site license, footer menu and coffee stat
     unifiedFooter = true
 
-    ## Author information
 ## Author information
     [params.author]
         ## site author's name
-        name = 'Alan Gastón Sarco'
+        name = 'Alan Sarco'
         ## Author's email (will be used for RSS feed)
         email = 'alangsr@gmail.com'
         ## Co-authors information (opcional - lo dejamos vacío para que no aparezca el "A.N. Other")
