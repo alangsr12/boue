@@ -92,16 +92,11 @@ enableRobotsTXT = true
 
 ## Taxonomy configuration
 [taxonomies]
-    ## Category taxonomy
-    category = "categorias"
-    ## Tag taxonomy
-    tag = "tags"
-    ## Series taxonomy
-    series = "series"
-    ## Stage taxonomy
-    stage = "stage"
-    ## Author taxonomy
-    author = "autor"
+  category = "categories"
+  tag      = "tags"
+  series   = "series"
+  stage    = "stage"
+  author   = "author"
 
 ## Site parameters
 [params]
