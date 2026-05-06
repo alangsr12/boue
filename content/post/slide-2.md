@@ -1,6 +1,6 @@
 +++
 title = "Authoring en el Jardín"
-date = "2024-01-01"           # <-- Fecha del pasado (Vital)
+date = "2023-01-01"           # <-- Fecha del pasado (Vital)
 type = "slide"                # <-- Tipo slide para el carrusel
 pinned = true
 draft = false                 # <-- Asegúrate de que no sea borrador
