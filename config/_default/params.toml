@@ -3,3 +3,11 @@ ZenMode = false
 [Feed]
   Flowlines = true
   FlowlinesLimit = 22
+    ## Mostrar el código del idioma (ES) junto a la fecha
+  showLanguage = true
+
+    ## Activar los metadatos extendidos (Autor + Categoría)
+  showAuthor = true
+    
+    ## Si el separador sigue sin verse, forzamos el formato de lectura
+  showReadingTime = true
