@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Alan G Sarco on BOÜE</title><link>http://localhost:1313/boue/author/alan/</link><description>Publicaciones recientes en Alan G Sarco en BOÜE</description><generator>Hugo 0.157.0</generator><language>es-ES</language><managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor><webMaster>alangsr@gmail.com (Alan Sarco)</webMaster><lastBuildDate>Wed, 06 May 2026 18:04:16 +0000</lastBuildDate><atom:link href="http://localhost:1313/boue/author/alan/index.xml" rel="self" type="application/rss+xml"/><item><title>Portafolio de Proyectos</title><link>http://localhost:1313/boue/post/mis-proyectos/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/mis-proyectos/</guid><description>&lt;p&gt;Aquí puedes ver algunos de mis proyectos destacados utilizando el formato de catálogo del tema.&lt;/p&gt;
+&lt;p&gt;&lt;div class="column pin"&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Alfa"&gt;
+ &lt;div&gt;Diseño Web&lt;/div&gt;
+ &lt;img src="https://picsum.photos/400" alt="Proyecto Alfa" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Beta"&gt;
+ &lt;div&gt;App Móvil&lt;/div&gt;
+ &lt;img src="https://picsum.photos/401" alt="Proyecto Beta" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Gamma"&gt;
+ &lt;div&gt;Consultoría&lt;/div&gt;
+ &lt;img src="https://picsum.photos/402" alt="Proyecto Gamma" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;El uso del shortcode &lt;code&gt;pin&lt;/code&gt; permite que, si las imágenes no son cuadradas, el diseño se muestre de forma automática tipo mosaico (&lt;em&gt;masonry style&lt;/em&gt;) [6].&lt;/p&gt;</description><content:encoded>&lt;p&gt;Aquí puedes ver algunos de mis proyectos destacados utilizando el formato de catálogo del tema.&lt;/p&gt;
+&lt;p&gt;&lt;div class="column pin"&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Alfa"&gt;
+ &lt;div&gt;Diseño Web&lt;/div&gt;
+ &lt;img src="https://picsum.photos/400" alt="Proyecto Alfa" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Beta"&gt;
+ &lt;div&gt;App Móvil&lt;/div&gt;
+ &lt;img src="https://picsum.photos/401" alt="Proyecto Beta" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+
+ &lt;div&gt;
+ &lt;a href="#" class="has-img has-aria-label has-quote"
+ aria-label="Proyecto Gamma"&gt;
+ &lt;div&gt;Consultoría&lt;/div&gt;
+ &lt;img src="https://picsum.photos/402" alt="Proyecto Gamma" loading="lazy"&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;El uso del shortcode &lt;code&gt;pin&lt;/code&gt; permite que, si las imágenes no son cuadradas, el diseño se muestre de forma automática tipo mosaico (&lt;em&gt;masonry style&lt;/em&gt;) [6].&lt;/p&gt;</content:encoded></item><item><title>Cómo personalizar colores y logos</title><link>http://localhost:1313/boue/post/configurando-el-tema/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/configurando-el-tema/</guid><description>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;
+&lt;h3 id="pasos-clave"&gt;Pasos clave:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;
+&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;
+&lt;/ol&gt;</description><content:encoded>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;
+&lt;h3 id="pasos-clave"&gt;Pasos clave:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;
+&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;
+&lt;/ol&gt;</content:encoded><category>Authoring</category></item><item><title>Bienvenidos a mi Jardín Digital</title><link>http://localhost:1313/boue/post/nvenidos-a-mi-jardin-digital/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/nvenidos-a-mi-jardin-digital/</guid><description>&lt;p&gt;Este es el comienzo de mi espacio personal utilizando &lt;strong&gt;Hugo-brewm&lt;/strong&gt;. Aquí compartiré mis notas y pensamientos siguiendo la metodología de un &lt;em&gt;Digital Garden&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Gracias a este tema, puedo mostrar el estado de madurez de mis artículos mediante la taxonomía &lt;code&gt;stage&lt;/code&gt;. Este post ya es &lt;strong&gt;Evergreen&lt;/strong&gt; (siempre verde), lo que significa que es contenido consolidado [1].&lt;/p&gt;</description><content:encoded>&lt;p&gt;Este es el comienzo de mi espacio personal utilizando &lt;strong&gt;Hugo-brewm&lt;/strong&gt;. Aquí compartiré mis notas y pensamientos siguiendo la metodología de un &lt;em&gt;Digital Garden&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Gracias a este tema, puedo mostrar el estado de madurez de mis artículos mediante la taxonomía &lt;code&gt;stage&lt;/code&gt;. Este post ya es &lt;strong&gt;Evergreen&lt;/strong&gt; (siempre verde), lo que significa que es contenido consolidado [1].&lt;/p&gt;</content:encoded><category>Jardín Digital</category></item><item><title>Mi gran artículo</title><link>http://localhost:1313/boue/post/mi-gran-articulo/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/mi-gran-articulo/</guid><description>&lt;p&gt;Para ver las categorías en la parte superior derecha de tu pantalla, tal como se muestra en la imagen del autor (donde aparecen &amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;, &amp;ldquo;Latex&amp;rdquo;), el proceso es automático, pero requiere que tus publicaciones cumplan con tres requisitos específicos en sus archivos .md.Aquí tienes la guía definitiva para activarlas ahora mismo:1. El detonante: El Front MatterHugo no mostrará esos cuadros si no hay contenido asociado a ellos. Debes entrar a tus archivos en content/post/ y añadir la línea de categorías.Asegúrate de que tus archivos se vean así:toml+++
+title = &amp;ldquo;Mi gran artículo&amp;rdquo;
+date = &amp;ldquo;2024-01-01&amp;rdquo;
+type = &amp;ldquo;post&amp;rdquo;
+categories = [&amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;] # &amp;lt;&amp;mdash; ESTO activa los cuadros
++++
+Usa el código con precaución.Importante: Debes escribirlo exactamente así: categories = [&amp;ldquo;Nombre&amp;rdquo;], con comillas y corchetes.&lt;/p&gt;</description><content:encoded>&lt;p&gt;Para ver las categorías en la parte superior derecha de tu pantalla, tal como se muestra en la imagen del autor (donde aparecen &amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;, &amp;ldquo;Latex&amp;rdquo;), el proceso es automático, pero requiere que tus publicaciones cumplan con tres requisitos específicos en sus archivos .md.Aquí tienes la guía definitiva para activarlas ahora mismo:1. El detonante: El Front MatterHugo no mostrará esos cuadros si no hay contenido asociado a ellos. Debes entrar a tus archivos en content/post/ y añadir la línea de categorías.Asegúrate de que tus archivos se vean así:toml+++
+title = &amp;ldquo;Mi gran artículo&amp;rdquo;
+date = &amp;ldquo;2024-01-01&amp;rdquo;
+type = &amp;ldquo;post&amp;rdquo;
+categories = [&amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;] # &amp;lt;&amp;mdash; ESTO activa los cuadros
++++
+Usa el código con precaución.Importante: Debes escribirlo exactamente así: categories = [&amp;ldquo;Nombre&amp;rdquo;], con comillas y corchetes.&lt;/p&gt;</content:encoded><category>Configuration</category></item><item><title>Nuevas Ideas</title><link>http://localhost:1313/boue/post/slide-3/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/slide-3/</guid><description>&lt;p&gt;Lorem ipsum dolor sit amet. Este es el texto que debe aparecer en el carrusel.&lt;/p&gt;</description><content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet. Este es el texto que debe aparecer en el carrusel.&lt;/p&gt;</content:encoded></item><item><title>Authoring en el Jardín</title><link>http://localhost:1313/boue/post/slide-2/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/slide-2/</guid><description>&lt;p&gt;Lorem ipsum dolor sit amet. Este contenido está en crecimiento (budding).&lt;/p&gt;</description><content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet. Este contenido está en crecimiento (budding).&lt;/p&gt;</content:encoded><category>Authoring</category><enclosure url="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg" length="0" type="image/jpeg"/></item><item><title>Configuración del Tema</title><link>http://localhost:1313/boue/post/slide-1/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/slide-1/</guid><description>&lt;p&gt;Lorem ipsum dolor sit amet. Este es un slide maduro.&lt;/p&gt;</description><content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet. Este es un slide maduro.&lt;/p&gt;</content:encoded><category>Configuration</category><enclosure url="https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg" length="0" type="image/jpeg"/></item></channel></rss>
