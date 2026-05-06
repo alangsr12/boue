@@ -1,0 +1,5 @@
+ZenMode = false
+
+[Feed]
+  Flowlines = true
+  FlowlinesLimit = 22
