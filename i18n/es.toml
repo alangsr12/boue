@@ -28,7 +28,7 @@
 [baselineStretch]
     other = "Baseline Stretch"
 [bionRead]
-    other = "Modo BionRead"
+    other = "Lectura Bionica"
 [breadcrumb]
     other = "Migas de navegación"
 [buildTime]
@@ -175,6 +175,8 @@
     other = "En"
 [OpenDyslexic]
     other = "Usar fuente OpenDyslexic"
+[dyslexic]
+other = "OpenDyslexic"
 [optimizeSR]
     other = "Optimizar para lectores de pantalla"
 [optimizeSRDesc]
@@ -254,3 +256,7 @@
     other = "Inicio"
 [tritanopia]
     other = "Tritanopía"
+[typeface]
+other = "Tipografía"
+[theme]
+other = "Tema"
