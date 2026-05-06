@@ -1,8 +1,8 @@
----
-title: "Inicio"
-cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg'
-keepAspectRatio: true
----
++++
+title = "BOÜE"
+cover = "https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg"
+keepAspectRatio = true
++++
 
 # ¡Hola! Soy un entusiasta de Hugo
 
