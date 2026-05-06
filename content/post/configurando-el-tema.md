@@ -6,7 +6,7 @@ type = "post"
 draft = false
 coffee = 2
 tags = ["configuración", "hugo", "diseño"]
-categories = ["tutoriales"]
+categories = ["Authoring"]
 stage = "budding"
 +++
 
