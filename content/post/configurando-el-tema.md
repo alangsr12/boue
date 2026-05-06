@@ -8,6 +8,7 @@ coffee = 2
 tags = ["configuración", "hugo", "diseño"]
 categories = ["Authoring"]
 stage = "budding"
+pinned = true
 +++
 
 Personalizar este tema es sencillo. Según la **Guía de Logos y Colores**, puedes cambiar el color de acento directamente en tu `hugo.toml` para que se alinee con tu marca [4].

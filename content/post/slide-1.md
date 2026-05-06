@@ -8,7 +8,7 @@ cover = "https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/f
 stage = "evergreen"
 categories = ["Configuration"]
 
-[params]                      # <-- Añade esto para que sea "headless"
+[params]                      # <-- Añade esto para que sea 
   headless = true
 +++
 Lorem ipsum dolor sit amet. Este es un slide maduro.
