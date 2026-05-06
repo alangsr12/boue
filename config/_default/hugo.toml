@@ -9,9 +9,9 @@ enableGitInfo = true
 ## Convert all URLs to absolute URLs
 canonifyURLs = true
 ## Default language for content
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'es'
 ## Put default language in subdirectory
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
 ## Use sections for main menu
@@ -93,7 +93,7 @@ enableRobotsTXT = true
 ## Taxonomy configuration
 [taxonomies]
     ## Category taxonomy
-    category = "categories"
+    category = "categorias"
     ## Tag taxonomy
     tag = "tags"
     ## Series taxonomy
@@ -101,7 +101,7 @@ enableRobotsTXT = true
     ## Stage taxonomy
     stage = "stage"
     ## Author taxonomy
-    author = "author"
+    author = "autor"
 
 ## Site parameters
 [params]
