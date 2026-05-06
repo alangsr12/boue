@@ -41,7 +41,7 @@
 [close]
     other = "Cerrar"
 [coffeeStat]
-    other = "Estadísticas de café"
+    other = "Estadísticas en cantidad de mates"
 [coffeeCount]
     other = "Hecho con ❤️ y "
 [coffeeCountPost]
@@ -77,8 +77,8 @@
 [ctaComments]
     other = "Unirse a la discusión"
 [cup]
-    one = "Taza de café"
-    other = "Tazas de café"
+    one = "mate"
+    other = "mates"
 [currentLang]
     other = "El lenguaje actual es"
 [dark]
@@ -160,7 +160,7 @@
 [noArticle]
     other = "No hay artículos para mostrar."
 [noArticlePost]
-    other = "Parece que nuestro autor se quedo sin café... ¡Mantén la calma, prepararemos más brevemente!"
+    other = "Parece que nuestro autor se quedo sin mates... ¡Mantené la calma, prepararemos más brevemente!"
 [noComment]
     other = "Sin comentarios que mostrar."
 [noGiscus]

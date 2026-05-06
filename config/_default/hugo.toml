@@ -123,7 +123,7 @@ enableRobotsTXT = true
     ## Site description
     description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
     ## Copyright notice
-    copyright = "Copyleft 2025 &copy; Author"
+    copyright = "Copyleft 2026 &copy; Author"
     ## Hide "powered by hugo" on colophon
     # HideHugoCredit = true
     ## Enable extended metadata (social cards)
