@@ -269,17 +269,3 @@ enableRobotsTXT = true
         
         ## JsonLD (cannot validate permalink)
         # jsonLD = true
-
-[[footer]]
-    name = "Instagram"
-    identifier = "instagram"
-    url = "https://instagram.com/contentplar"
-    pre = "instagram"
-    weight = 1  # Podes cambiar este número para decidir el orden (1, 2, 3...)
-
-[[footer]]
-    name = "Email"
-    identifier = "email"
-    url = "mailto:tu-email@gmail.com"
-    pre = "email"
-    weight = 2
