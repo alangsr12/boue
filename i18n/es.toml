@@ -41,7 +41,7 @@
 [close]
     other = "Cerrar"
 [coffeeStat]
-    other = "Estadísticas en cantidad de mates"
+    other = "Estadísticas en cantidad de litros de mates"
 [coffeeCount]
     other = "Hecho con ❤️ y "
 [coffeeCountPost]
@@ -77,8 +77,8 @@
 [ctaComments]
     other = "Unirse a la discusión"
 [cup]
-    one = "mate"
-    other = "mates"
+    one = "litro de mate"
+    other = "litros de mates"
 [currentLang]
     other = "El lenguaje actual es"
 [dark]

@@ -1,6 +1,5 @@
 ---
 type: footer
-title: "Your Main Footer Title"
 weight: 1
 params:
     headless: true # prevent page body to be render and redirect to 404.html
