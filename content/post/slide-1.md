@@ -1,6 +1,6 @@
 +++
 title = "Configuración del Tema"
-date = "2025-01-01"           # <-- Fecha del pasado
+date = "2020-01-01"           # <-- Fecha del pasado
 type = "slide"
 pinned = true
 draft = false
