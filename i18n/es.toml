@@ -12,3 +12,24 @@ other = "Lectura de"
 
 [post_meta_words]
 other = "palabras"
+
+[accessibility]
+other = "Accesibilidad"
+
+[typeface]
+other = "Tipografía"
+
+[theme]
+other = "Tema"
+
+[bionread]
+other = "Lectura Biónica"
+
+[dyslexic]
+other = "OpenDyslexic"
+
+[reset]
+other = "Restablecer"
+
+[focus_mode]
+other = "Modo Enfoque"
