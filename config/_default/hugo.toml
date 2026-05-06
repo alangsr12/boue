@@ -19,13 +19,6 @@ defaultContentLanguageInSubdir = false
     contentDir = 'content'   # Al no usar subdirectorios, apunta a la raíz de content
     weight = 1
 
-[[languages.es.menu.footer]]
-        name = "Instagram"
-        identifier = "instagram"
-        url = "https://instagram.com/contentplar"
-        pre = "instagram"  # Este es el nombre del icono en IcoMoon [4, 5]
-        weight = 1
-
 ## Enable Git information for pages, (e.g. lastMod date information)
 enableGitInfo = true
 
