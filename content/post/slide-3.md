@@ -1,10 +1,12 @@
 +++
 title = "Nuevas Ideas"
-date = "2026-05-06"
-type = "post"
+date = "2024-01-01"
+type = "slide"
 pinned = true
-cover = "https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/3.svg"
-stage = "seedling"
-categories = ["Authoring"]
+draft = false
+
+[params]
+  headless = true
 +++
-Lorem ipsum dolor sit amet. Esto es solo una semilla (seedling).
+
+Lorem ipsum dolor sit amet. Este es el texto que debe aparecer en el carrusel.

@@ -1,13 +1,15 @@
 +++
 title = "Authoring en el Jardín"
-date = "2026-05-06"
-type = "post"
+date = "2024-01-01"           # <-- Fecha del pasado (Vital)
+type = "slide"                # <-- Tipo slide para el carrusel
 pinned = true
+draft = false                 # <-- Asegúrate de que no sea borrador
 cover = "https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/2.svg"
 stage = "budding"
 categories = ["Authoring"]
-history = [
-    {date = "2026-05-06", stage = "budding"}
-]
+
+[params]                      # <-- Bloque necesario para el tema
+  headless = true
 +++
 Lorem ipsum dolor sit amet. Este contenido está en crecimiento (budding).
+
