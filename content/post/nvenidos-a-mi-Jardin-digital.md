@@ -6,7 +6,7 @@ type = "post"
 draft = false
 coffee = 1
 tags = ["personal", "bienvenida"]
-categories = ["diario"]
+categories = ["Jardín Digital"]
 stage = "evergreen"
 history = [
     {date = "2026-04-20", stage="seedling"},
