@@ -1,43 +1,48 @@
-/* 1. Unificar iconos: sin fondos, color gris y más pequeños */
-body #has-share ul li a {
+/* 1. RESET TOTAL DE COLORES Y FONDOS */
+/* Apuntamos a todo lo que pueda tener color o fondo dentro de compartir */
+#has-share a, 
+#has-share a i, 
+#has-share a span,
+#has-share .icon,
+#has-share li {
     background: transparent !important;
-    color: #808080 !important;
-    font-size: 12px !important;
+    background-color: transparent !important;
+    color: #888888 !important; /* Gris monocromático */
+    border: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+/* 2. UNIFICAR EN UNA SOLA LÍNEA Y QUITAR ESPACIOS */
+#has-share ul {
     display: flex !important;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 10px !important; /* Espacio exacto entre iconos */
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+}
+
+/* 3. TAMAÑO DE LOS ICONOS */
+#has-share i, 
+#has-share .icon,
+#has-share [class^="icon-"] {
+    font-size: 16px !important;
     width: auto !important;
     height: auto !important;
-    border: none !important;
 }
 
-/* 2. Separación lateral para que no se amontonen */
-body #has-share ul li {
-    margin: 0 8px !important; /* Espacio equilibrado a los lados */
+/* 4. ELIMINAR EL TEXTO (TOOLTIP) QUE MOLESTA */
+/* Si el texto se ve raro o se encima, mejor lo ocultamos para máxima limpieza */
+#has-share a span, 
+#has-share a::after, 
+#has-share a::before {
+    display: none !important;
 }
 
-/* 3. ARREGLAR EL TEXTO (Tooltip) */
-/* Lo movemos hacia abajo para que no se encime con el icono */
-body #has-share ul li a span {
-    position: absolute;
-    bottom: -30px; /* Lo empuja hacia abajo */
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    font-size: 10px !important;
-    background: #222 !important; /* Fondo oscuro sutil para el texto */
-    padding: 2px 6px !important;
-    border-radius: 4px;
-    opacity: 0; /* Oculto por defecto */
-    transition: opacity 0.2s ease;
-}
-
-/* Mostrar el texto solo cuando pasas el mouse */
-body #has-share ul li a:hover span {
-    opacity: 1;
-}
-
-/* 4. Cambio de color al pasar el mouse */
-body #has-share ul li a:hover {
-    color: #ffffff !important;
+/* 5. VARIACIÓN SUTIL AL PASAR EL MOUSE */
+#has-share a:hover i,
+#has-share a:hover .icon {
+    color: #ffffff !important; /* Blanco al pasar el mouse */
 }
