@@ -1,27 +1,24 @@
-/* 1. Unificar color y quitar fondos redondos */
-#has-share a {
-    background: none !important;      /* Quita el círculo gris de WhatsApp */
-    color: #808080 !important;        /* Color gris base para todos (estático) */
-    filter: none !important;          /* Quitamos filtros para evitar variaciones de tono */
-    text-decoration: none !important;
-    padding: 0 !important;            /* Quita espacio interno que crea el círculo */
-    transition: color 0.2s ease;      /* Suaviza el cambio al pasar el mouse */
+/* Forzar a nivel de etiqueta para que nada lo sobrescriba */
+body #has-share ul li a,
+body #has-share ul li a i,
+body #has-share ul li a span {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #808080 !important; /* Gris monocromático */
+    filter: grayscale(100%) !important;
+    font-size: 16px !important; /* Más pequeños */
+    border: none !important;
+    box-shadow: none !important;
 }
 
-/* 2. Reducir el tamaño y el espacio entre ellos */
-#has-share li {
-    margin-right: 12px !important;    /* Ajusta este número para acercarlos más */
+/* Espacio entre iconos */
+body #has-share ul li {
+    margin-right: 10px !important; /* Los pega más entre sí */
     margin-left: 0 !important;
-    display: inline-block !important;
 }
 
-/* 3. Definir el tamaño exacto del icono */
-#has-share a i, 
-#has-share a [class^="icon-"] {
-    font-size: 18px !important;       /* Tamaño uniforme para todos */
-}
-
-/* 4. Variación sutil al pasar el mouse (Hover) */
-#has-share a:hover {
-    color: #ffffff !important;        /* Cambia a blanco puro al pasar el mouse */
+/* Variación sutil al pasar el mouse */
+body #has-share ul li a:hover {
+    color: #ffffff !important;
+    filter: none !important;
 }
