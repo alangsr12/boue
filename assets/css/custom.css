@@ -1,0 +1,5 @@
+/* Reduce el tamaño de los iconos de compartir */
+.share-button .icon, .main-footer .icon {
+    font-size: 0.8rem; /* Ajusta este número (0.7, 0.9) hasta que te guste el tamaño */
+    margin: 0 5px;    /* Ajusta el espacio entre ellos */
+}
