@@ -2,91 +2,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/boue/author/alan/</loc>
+    <loc>http://localhost/boue/author/alan/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/author/</loc>
+    <loc>http://localhost/boue/author/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/</loc>
+    <loc>http://localhost/boue/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/stage/evergreen/</loc>
+    <loc>http://localhost/boue/stage/evergreen/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/post/mis-proyectos/</loc>
+    <loc>http://localhost/boue/post/mis-proyectos/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/post/</loc>
+    <loc>http://localhost/boue/post/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/stage/</loc>
+    <loc>http://localhost/boue/stage/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/categories/authoring/</loc>
+    <loc>http://localhost/boue/categories/authoring/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/stage/budding/</loc>
+    <loc>http://localhost/boue/stage/budding/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/categories/</loc>
+    <loc>http://localhost/boue/categories/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/post/configurando-el-tema/</loc>
+    <loc>http://localhost/boue/post/configurando-el-tema/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/configuraci%C3%B3n/</loc>
+    <loc>http://localhost/boue/tags/configuraci%C3%B3n/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/dise%C3%B1o/</loc>
+    <loc>http://localhost/boue/tags/dise%C3%B1o/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/hugo/</loc>
+    <loc>http://localhost/boue/tags/hugo/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/</loc>
+    <loc>http://localhost/boue/tags/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/bienvenida/</loc>
+    <loc>http://localhost/boue/tags/bienvenida/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/post/nvenidos-a-mi-jardin-digital/</loc>
+    <loc>http://localhost/boue/post/nvenidos-a-mi-jardin-digital/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/categories/jard%C3%ADn-digital/</loc>
+    <loc>http://localhost/boue/categories/jard%C3%ADn-digital/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/tags/personal/</loc>
+    <loc>http://localhost/boue/tags/personal/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/categories/configuration/</loc>
+    <loc>http://localhost/boue/categories/configuration/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/post/mi-gran-articulo/</loc>
+    <loc>http://localhost/boue/post/mi-gran-articulo/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>http://localhost:1313/boue/series/</loc>
+    <loc>http://localhost/boue/series/</loc>
     
     </url>
 </urlset>

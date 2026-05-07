@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Configuration on BOÜE</title>
-    <link>http://localhost:1313/boue/categories/configuration/</link>
+    <link>http://localhost/boue/categories/configuration/</link>
     <description>Publicaciones recientes en Configuration en BOÜE</description>
     <generator>Hugo 0.157.0</generator>
     <language>es-ES</language>
     <managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor>
     <webMaster>alangsr@gmail.com (Alan Sarco)</webMaster>
-    <lastBuildDate>Thu, 07 May 2026 19:21:02 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/boue/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 19:30:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost/boue/categories/configuration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi gran artículo</title>
-      <link>http://localhost:1313/boue/post/mi-gran-articulo/</link>
+      <link>http://localhost/boue/post/mi-gran-articulo/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <author>alangsr@gmail.com (Alan Sarco)</author>
       <dc:creator>Alan G Sarco</dc:creator>
-      <guid>http://localhost:1313/boue/post/mi-gran-articulo/</guid>
+      <guid>http://localhost/boue/post/mi-gran-articulo/</guid>
       <description>&lt;p&gt;Para ver las categorías en la parte superior derecha de tu pantalla, tal como se muestra en la imagen del autor (donde aparecen &amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;, &amp;ldquo;Latex&amp;rdquo;), el proceso es automático, pero requiere que tus publicaciones cumplan con tres requisitos específicos en sus archivos .md.Aquí tienes la guía definitiva para activarlas ahora mismo:1. El detonante: El Front MatterHugo no mostrará esos cuadros si no hay contenido asociado a ellos. Debes entrar a tus archivos en content/post/ y añadir la línea de categorías.Asegúrate de que tus archivos se vean así:toml+++&#xA;title = &amp;ldquo;Mi gran artículo&amp;rdquo;&#xA;date = &amp;ldquo;2024-01-01&amp;rdquo;&#xA;type = &amp;ldquo;post&amp;rdquo;&#xA;categories = [&amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;]  # &amp;lt;&amp;mdash; ESTO activa los cuadros&#xA;+++&#xA;Usa el código con precaución.Importante: Debes escribirlo exactamente así: categories = [&amp;ldquo;Nombre&amp;rdquo;], con comillas y corchetes.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Para ver las categorías en la parte superior derecha de tu pantalla, tal como se muestra en la imagen del autor (donde aparecen &amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;, &amp;ldquo;Latex&amp;rdquo;), el proceso es automático, pero requiere que tus publicaciones cumplan con tres requisitos específicos en sus archivos .md.Aquí tienes la guía definitiva para activarlas ahora mismo:1. El detonante: El Front MatterHugo no mostrará esos cuadros si no hay contenido asociado a ellos. Debes entrar a tus archivos en content/post/ y añadir la línea de categorías.Asegúrate de que tus archivos se vean así:toml+++&#xA;title = &amp;ldquo;Mi gran artículo&amp;rdquo;&#xA;date = &amp;ldquo;2024-01-01&amp;rdquo;&#xA;type = &amp;ldquo;post&amp;rdquo;&#xA;categories = [&amp;ldquo;Authoring&amp;rdquo;, &amp;ldquo;Configuration&amp;rdquo;]  # &amp;lt;&amp;mdash; ESTO activa los cuadros&#xA;+++&#xA;Usa el código con precaución.Importante: Debes escribirlo exactamente así: categories = [&amp;ldquo;Nombre&amp;rdquo;], con comillas y corchetes.&lt;/p&gt;&#xA;</content:encoded>
       <category>Configuration</category>
     </item>
     <item>
       <title>Configuración del Tema</title>
-      <link>http://localhost:1313/boue/post/slide-1/</link>
+      <link>http://localhost/boue/post/slide-1/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <author>alangsr@gmail.com (Alan Sarco)</author>
       <dc:creator>Alan G Sarco</dc:creator>
-      <guid>http://localhost:1313/boue/post/slide-1/</guid>
+      <guid>http://localhost/boue/post/slide-1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet. Este es un slide maduro.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet. Este es un slide maduro.&lt;/p&gt;&#xA;</content:encoded>
       <category>Configuration</category>

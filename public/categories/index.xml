@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
     <title>Categories on BOÜE</title>
-    <link>http://localhost:1313/boue/categories/</link>
+    <link>http://localhost/boue/categories/</link>
     <description>Publicaciones recientes en Categories en BOÜE</description>
     <generator>Hugo 0.157.0</generator>
     <language>es-ES</language>
     <managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor>
     <webMaster>alangsr@gmail.com (Alan Sarco)</webMaster>
-    <lastBuildDate>Thu, 07 May 2026 19:21:02 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/boue/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 19:30:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost/boue/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authoring</title>
-      <link>http://localhost:1313/boue/categories/authoring/</link>
+      <link>http://localhost/boue/categories/authoring/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
       <author>alangsr@gmail.com (Alan Sarco)</author>
       <dc:creator>Alan Sarco</dc:creator>
-      <guid>http://localhost:1313/boue/categories/authoring/</guid>
+      <guid>http://localhost/boue/categories/authoring/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Jardín Digital</title>
-      <link>http://localhost:1313/boue/categories/jard%C3%ADn-digital/</link>
+      <link>http://localhost/boue/categories/jard%C3%ADn-digital/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
       <author>alangsr@gmail.com (Alan Sarco)</author>
       <dc:creator>Alan Sarco</dc:creator>
-      <guid>http://localhost:1313/boue/categories/jard%C3%ADn-digital/</guid>
+      <guid>http://localhost/boue/categories/jard%C3%ADn-digital/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
       <title>Configuration</title>
-      <link>http://localhost:1313/boue/categories/configuration/</link>
+      <link>http://localhost/boue/categories/configuration/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <author>alangsr@gmail.com (Alan Sarco)</author>
       <dc:creator>Alan Sarco</dc:creator>
-      <guid>http://localhost:1313/boue/categories/configuration/</guid>
+      <guid>http://localhost/boue/categories/configuration/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>

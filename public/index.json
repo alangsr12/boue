@@ -3,70 +3,70 @@
     "nodes": [{
                 "id": "bad7fb2e1258c69b1ac5c70e07189b1c",
                 "title": "Portafolio de Proyectos",
-                "permalink": "http://localhost:1313/boue/post/mis-proyectos/",
+                "permalink": "http://localhost/boue/post/mis-proyectos/",
                 "type": "post"
             },{
                 "id": "263922c7d7be178be7497bd7c550f057",
                 "title": "Cómo personalizar colores y logos",
-                "permalink": "http://localhost:1313/boue/post/configurando-el-tema/",
+                "permalink": "http://localhost/boue/post/configurando-el-tema/",
                 "type": "post"
             },{
                 "id": "8e67cadcddf385f646435b76a20a5653",
                 "title": "Bienvenidos a mi Jardín Digital",
-                "permalink": "http://localhost:1313/boue/post/nvenidos-a-mi-jardin-digital/",
+                "permalink": "http://localhost/boue/post/nvenidos-a-mi-jardin-digital/",
                 "type": "post"
             },{
                 "id": "a0c929ee095f4f48ae23773e24067c78",
                 "title": "Mi gran artículo",
-                "permalink": "http://localhost:1313/boue/post/mi-gran-articulo/",
+                "permalink": "http://localhost/boue/post/mi-gran-articulo/",
                 "type": "post"
             },
                         {
                             "id": "categories-authoring",
                             "title": "Authoring",
-                            "permalink": "http://localhost:1313/boue/categories/authoring/",
+                            "permalink": "http://localhost/boue/categories/authoring/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-configuration",
                             "title": "Configuration",
-                            "permalink": "http://localhost:1313/boue/categories/configuration/",
+                            "permalink": "http://localhost/boue/categories/configuration/",
                             "type": "categories"
                         },
                         {
                             "id": "categories-jardín-digital",
                             "title": "Jardín Digital",
-                            "permalink": "http://localhost:1313/boue/categories/jard%C3%ADn-digital/",
+                            "permalink": "http://localhost/boue/categories/jard%C3%ADn-digital/",
                             "type": "categories"
                         },
                         {
                             "id": "tags-bienvenida",
                             "title": "Bienvenida",
-                            "permalink": "http://localhost:1313/boue/tags/bienvenida/",
+                            "permalink": "http://localhost/boue/tags/bienvenida/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-configuración",
                             "title": "Configuración",
-                            "permalink": "http://localhost:1313/boue/tags/configuraci%C3%B3n/",
+                            "permalink": "http://localhost/boue/tags/configuraci%C3%B3n/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-diseño",
                             "title": "Diseño",
-                            "permalink": "http://localhost:1313/boue/tags/dise%C3%B1o/",
+                            "permalink": "http://localhost/boue/tags/dise%C3%B1o/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-hugo",
                             "title": "Hugo",
-                            "permalink": "http://localhost:1313/boue/tags/hugo/",
+                            "permalink": "http://localhost/boue/tags/hugo/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-personal",
                             "title": "Personal",
-                            "permalink": "http://localhost:1313/boue/tags/personal/",
+                            "permalink": "http://localhost/boue/tags/personal/",
                             "type": "tags"
                         },
     ],
