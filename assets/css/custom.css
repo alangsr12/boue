@@ -1,5 +1,15 @@
-/* Reduce el tamaño de los iconos de compartir */
-.share-button .icon, .main-footer .icon {
-    font-size: 0.8rem; /* Ajusta este número (0.7, 0.9) hasta que te guste el tamaño */
-    margin: 0 5px;    /* Ajusta el espacio entre ellos */
+/* Reducir tamaño de los iconos de compartir */
+.share-links, .social-icons {
+    font-size: 0.8rem !important; /* Hazlo más pequeño (ej: 0.7rem para micro) */
+}
+
+/* Volverlos monocromáticos (Grises que resaltan menos) */
+.share-links a, .social-icons a {
+    filter: grayscale(100%) opacity(0.6);
+    transition: all 0.3s ease;
+}
+
+/* Que recuperen color u opacidad al pasar el ratón */
+.share-links a:hover, .social-icons a:hover {
+    filter: grayscale(0%) opacity(1);
 }
