@@ -1,48 +1,39 @@
-/* 1. RESET TOTAL DE COLORES Y FONDOS */
-/* Apuntamos a todo lo que pueda tener color o fondo dentro de compartir */
-#has-share a, 
-#has-share a i, 
-#has-share a span,
-#has-share .icon,
-#has-share li {
-    background: transparent !important;
-    background-color: transparent !important;
-    color: #888888 !important; /* Gris monocromático */
-    border: none !important;
-    box-shadow: none !important;
-    filter: none !important;
-}
-
-/* 2. UNIFICAR EN UNA SOLA LÍNEA Y QUITAR ESPACIOS */
+/* 1. Unificar todo en una sola línea compacta */
 #has-share ul {
     display: flex !important;
-    flex-wrap: wrap !important;
+    flex-wrap: nowrap !important; /* Prohibido saltar de línea */
     align-items: center !important;
-    gap: 10px !important; /* Espacio exacto entre iconos */
-    padding: 0 !important;
+    gap: 6px !important; /* Espacio mínimo entre iconos */
+    justify-content: flex-start !important;
+}
+
+/* 2. Achicar el buscador de Mastodon para que no empuje */
+#has-share li:has(input), 
+#has-share input {
+    max-width: 120px !important; /* Lo hace más corto */
+    font-size: 11px !important;
+}
+
+/* 3. Eliminar márgenes sobrantes de los iconos */
+#has-share li {
     margin: 0 !important;
-    list-style: none !important;
+    padding: 0 !important;
 }
 
-/* 3. TAMAÑO DE LOS ICONOS */
-#has-share i, 
-#has-share .icon,
-#has-share [class^="icon-"] {
-    font-size: 16px !important;
-    width: auto !important;
-    height: auto !important;
+/* 4. Iconos aún más juntos y pequeños */
+#has-share i, #has-share .icon {
+    font-size: 15px !important;
+    padding: 2px !important;
 }
 
-/* 4. ELIMINAR EL TEXTO (TOOLTIP) QUE MOLESTA */
-/* Si el texto se ve raro o se encima, mejor lo ocultamos para máxima limpieza */
-#has-share a span, 
-#has-share a::after, 
-#has-share a::before {
-    display: none !important;
-}
-
-/* 5. VARIACIÓN SUTIL AL PASAR EL MOUSE */
-#has-share a:hover i,
-#has-share a:hover .icon {
-    color: #ffffff !important; /* Blanco al pasar el mouse */
+/* 5. Si quieres recuperar el texto de forma discreta debajo */
+#has-share a:hover::after {
+    content: attr(aria-label); /* Usa el nombre del icono */
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    color: #888;
+    white-space: nowrap;
 }
