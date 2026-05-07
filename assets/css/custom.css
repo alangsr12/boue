@@ -13,3 +13,18 @@
 .share-links a:hover, .social-icons a:hover {
     filter: grayscale(0%) opacity(1);
 }
+
+/* Esto mandará sobre el archivo .min.css */
+#has-share a {
+    color: #888 !important; /* Un gris neutro */
+    filter: grayscale(100%); /* Por si los iconos son imágenes/svg */
+    font-size: 14px !important; /* Ajusta el tamaño aquí */
+    margin: 0 5px; /* Separa un poco los iconos */
+    transition: color 0.3s ease;
+}
+
+/* Efecto opcional para que brillen al pasar el mouse */
+#has-share a:hover {
+    color: #fff !important; 
+    filter: grayscale(0%);
+}
