@@ -1,1 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on BOÜE</title><link>http://localhost:1313/boue/tags/</link><description>Publicaciones recientes en Tags en BOÜE</description><generator>Hugo 0.157.0</generator><language>es-ES</language><managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor><webMaster>alangsr@gmail.com (Alan Sarco)</webMaster><lastBuildDate>Thu, 07 May 2026 00:52:37 +0000</lastBuildDate><atom:link href="http://localhost:1313/boue/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuración</title><link>http://localhost:1313/boue/tags/configuraci%C3%B3n/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan Sarco</dc:creator><guid>http://localhost:1313/boue/tags/configuraci%C3%B3n/</guid><description/><content:encoded/></item><item><title>Diseño</title><link>http://localhost:1313/boue/tags/dise%C3%B1o/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan Sarco</dc:creator><guid>http://localhost:1313/boue/tags/dise%C3%B1o/</guid><description/><content:encoded/></item><item><title>Hugo</title><link>http://localhost:1313/boue/tags/hugo/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan Sarco</dc:creator><guid>http://localhost:1313/boue/tags/hugo/</guid><description/><content:encoded/></item><item><title>Bienvenida</title><link>http://localhost:1313/boue/tags/bienvenida/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan Sarco</dc:creator><guid>http://localhost:1313/boue/tags/bienvenida/</guid><description/><content:encoded/></item><item><title>Personal</title><link>http://localhost:1313/boue/tags/personal/</link><pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan Sarco</dc:creator><guid>http://localhost:1313/boue/tags/personal/</guid><description/><content:encoded/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Tags on BOÜE</title>
+    <link>http://localhost:1313/boue/tags/</link>
+    <description>Publicaciones recientes en Tags en BOÜE</description>
+    <generator>Hugo 0.157.0</generator>
+    <language>es-ES</language>
+    <managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor>
+    <webMaster>alangsr@gmail.com (Alan Sarco)</webMaster>
+    <lastBuildDate>Thu, 07 May 2026 19:15:09 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/boue/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuración</title>
+      <link>http://localhost:1313/boue/tags/configuraci%C3%B3n/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <author>alangsr@gmail.com (Alan Sarco)</author>
+      <dc:creator>Alan Sarco</dc:creator>
+      <guid>http://localhost:1313/boue/tags/configuraci%C3%B3n/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Diseño</title>
+      <link>http://localhost:1313/boue/tags/dise%C3%B1o/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <author>alangsr@gmail.com (Alan Sarco)</author>
+      <dc:creator>Alan Sarco</dc:creator>
+      <guid>http://localhost:1313/boue/tags/dise%C3%B1o/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/boue/tags/hugo/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <author>alangsr@gmail.com (Alan Sarco)</author>
+      <dc:creator>Alan Sarco</dc:creator>
+      <guid>http://localhost:1313/boue/tags/hugo/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Bienvenida</title>
+      <link>http://localhost:1313/boue/tags/bienvenida/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <author>alangsr@gmail.com (Alan Sarco)</author>
+      <dc:creator>Alan Sarco</dc:creator>
+      <guid>http://localhost:1313/boue/tags/bienvenida/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/boue/tags/personal/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <author>alangsr@gmail.com (Alan Sarco)</author>
+      <dc:creator>Alan Sarco</dc:creator>
+      <guid>http://localhost:1313/boue/tags/personal/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>
