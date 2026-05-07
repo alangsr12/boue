@@ -1,39 +1,35 @@
-/* 1. Unificar todo en una sola línea compacta */
+/* BLOQUEO TOTAL DE COLOR - FUERZA MÁXIMA */
+#has-share ul li a, 
+#has-share ul li a i, 
+#has-share ul li a svg,
+#has-share [class^="icon-"], 
+#has-share [class*=" icon-"] {
+    color: #888888 !important; /* Gris monocromático */
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    filter: grayscale(100%) brightness(1) !important; /* Anula cualquier color de logo */
+}
+
+/* COMPACTAR TODO EN UNA LÍNEA */
 #has-share ul {
     display: flex !important;
-    flex-wrap: nowrap !important; /* Prohibido saltar de línea */
+    flex-wrap: nowrap !important;
     align-items: center !important;
-    gap: 6px !important; /* Espacio mínimo entre iconos */
-    justify-content: flex-start !important;
+    gap: 8px !important; /* Aquí controlas la cercanía */
 }
 
-/* 2. Achicar el buscador de Mastodon para que no empuje */
-#has-share li:has(input), 
+/* ACHICAR EL BUSCADOR DE MASTODON */
+#has-share .mastodon-instance-input, 
 #has-share input {
-    max-width: 120px !important; /* Lo hace más corto */
-    font-size: 11px !important;
+    max-width: 100px !important;
+    background: #222 !important;
+    border: 1px solid #444 !important;
 }
 
-/* 3. Eliminar márgenes sobrantes de los iconos */
-#has-share li {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-/* 4. Iconos aún más juntos y pequeños */
-#has-share i, #has-share .icon {
-    font-size: 15px !important;
-    padding: 2px !important;
-}
-
-/* 5. Si quieres recuperar el texto de forma discreta debajo */
-#has-share a:hover::after {
-    content: attr(aria-label); /* Usa el nombre del icono */
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 9px;
-    color: #888;
-    white-space: nowrap;
+/* EFECTO HOVER SUTIL */
+#has-share ul li a:hover, 
+#has-share ul li a:hover i {
+    color: #ffffff !important;
+    filter: none !important;
 }
