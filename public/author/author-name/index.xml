@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
   <channel>
-    <title>Author Name on Example</title>
-    <link>https://foxihd.github.io/hugo-brewm/author/author-name/</link>
-    <description>Publicaciones recientes en Author Name en Example</description>
+    <title>Author Name on BOÜE</title>
+    <link>https://alangsr12.github.io/boue/author/author-name/</link>
+    <description>Publicaciones recientes en Author Name en BOÜE</description>
     <generator>Hugo 0.157.0</generator>
     <language>es</language>
     <managingEditor>email@example.com (Author Name)</managingEditor>
     <webMaster>email@example.com (Author Name)</webMaster>
-    <lastBuildDate>Fri, 08 May 2026 05:26:24 +0000</lastBuildDate>
-    <atom:link href="https://foxihd.github.io/hugo-brewm/author/author-name/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 May 2026 05:58:45 +0000</lastBuildDate>
+    <atom:link href="https://alangsr12.github.io/boue/author/author-name/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

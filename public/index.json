@@ -3,130 +3,140 @@
     "nodes": [{
                 "id": "c2ba51d7113eecfbe9f88895c0ca8893",
                 "title": "Primer Post del Búnker",
-                "permalink": "https://foxihd.github.io/hugo-brewm/post/hola/",
+                "permalink": "https://alangsr12.github.io/boue/post/hola/",
                 "type": "post"
             },{
-                "id": "c2b5fb24f8bba25bef7722065a170635",
+                "id": "b37bf84fedf879d5ab6b97f3694025cb",
                 "title": "Menambahkan Gambar Sampul dan Artikel Audio",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-sampul-dan-audio/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-sampul-dan-audio/",
                 "type": "post"
             },{
-                "id": "449efa6ffc5d56c4a41694741bda767e",
+                "id": "dafe57493abbe379fdac6b838eeee0f7",
                 "title": "Mengatur Entri `Terms`",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-entri-terms/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-entri-terms/",
                 "type": "post"
             },{
-                "id": "59cf651772d90de0c0e7752b4d5322f6",
+                "id": "a6060acf0b7848ef70bde960b4194847",
                 "title": "Mengatur Riwayat Redaksi",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-riwayat-redaksi/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-riwayat-redaksi/",
                 "type": "post"
             },{
-                "id": "7a9bd2e035ce26c1c49265e7582cb541",
+                "id": "c104b61782e7d114883907ddd8e97457",
                 "title": "Menambahkan Diskusi",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-diskusi/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-diskusi/",
                 "type": "post"
             },{
-                "id": "a59da5059467a28d182d0f42bf5f212b",
+                "id": "2bd9c6565aded35f06768215a43f29f7",
+                "title": "Mengatur Footer Utama",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-footer-situs/",
+                "type": "post"
+            },{
+                "id": "5403a3a47368af5c7aaeb63d7d36a7a0",
                 "title": "Mengatur Logo dan Aksen Warna",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-logo-dan-aksen-warna/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-logo-dan-aksen-warna/",
                 "type": "post"
             },{
-                "id": "6285ed8d2a1a83df21f7e63371d557a8",
+                "id": "70165dffc49c25ace2bdee1659da383f",
                 "title": "Mengatur Menu",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-menu/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-menu/",
                 "type": "post"
             },{
-                "id": "42780e49ce3c58711326b012c4ab3207",
+                "id": "f00ee40d50da6a4acc65e291150a47a0",
                 "title": "Mengatur Pagefind",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-pagefind/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-pagefind/",
                 "type": "post"
             },{
-                "id": "6fe4eb979584583df9cc814c9fdaf095",
+                "id": "11a3366b8633f0227676e19abad03a4d",
                 "title": "Mengatur Slide Beranda",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/mengatur-slide/",
+                "permalink": "https://alangsr12.github.io/boue/post/mengatur-slide/",
                 "type": "post"
             },{
-                "id": "c0c5c672116f5a6a59b4ebed0c948233",
+                "id": "928945092f1c0510319630b0189cc312",
                 "title": "Tes Markdown",
-                "permalink": "https://foxihd.github.io/hugo-brewm/id/pos/tes-markdown/",
+                "permalink": "https://alangsr12.github.io/boue/post/tes-markdown/",
+                "type": "post"
+            },{
+                "id": "fcd879ed47500f1c1806bfc72dbcae56",
+                "title": "",
+                "permalink": "https://alangsr12.github.io/boue/post/articulo/",
                 "type": "post"
             },
                         {
                             "id": "categories-authoring",
                             "title": "Authoring",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/categories/authoring/",
+                            "permalink": "https://alangsr12.github.io/boue/categories/authoring/",
                             "type": "categories"
                         },
                         {
                             "id": "tags-alt",
                             "title": "Alt",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/alt/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/alt/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-audio",
                             "title": "Audio",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/audio/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/audio/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-authoring",
                             "title": "Authoring",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/authoring/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/authoring/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-cover",
                             "title": "Cover",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/cover/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/cover/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-gambar",
                             "title": "Gambar",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/gambar/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/gambar/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-konten",
                             "title": "Konten",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/konten/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/konten/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-media",
                             "title": "Media",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/media/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/media/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-redaksi",
                             "title": "Redaksi",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/redaksi/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/redaksi/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-riwayat",
                             "title": "Riwayat",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/riwayat/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/riwayat/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-sampul",
                             "title": "Sampul",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/sampul/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/sampul/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-taxonomy",
                             "title": "Taxonomy",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/taxonomy/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/taxonomy/",
                             "type": "tags"
                         },
                         {
                             "id": "tags-terms",
                             "title": "Terms",
-                            "permalink": "https://foxihd.github.io/hugo-brewm/tags/terms/",
+                            "permalink": "https://alangsr12.github.io/boue/tags/terms/",
                             "type": "tags"
                         },
     ],
@@ -138,63 +148,65 @@
                     },
             
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-authoring",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-konten",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-media",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-audio",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-sampul",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-gambar",
                     },
                     {
-                        "source": "c2b5fb24f8bba25bef7722065a170635",
+                        "source": "b37bf84fedf879d5ab6b97f3694025cb",
                         "target": "tags-alt",
                     },
             
                     {
-                        "source": "449efa6ffc5d56c4a41694741bda767e",
+                        "source": "dafe57493abbe379fdac6b838eeee0f7",
                         "target": "tags-authoring",
                     },
                     {
-                        "source": "449efa6ffc5d56c4a41694741bda767e",
+                        "source": "dafe57493abbe379fdac6b838eeee0f7",
                         "target": "tags-cover",
                     },
                     {
-                        "source": "449efa6ffc5d56c4a41694741bda767e",
+                        "source": "dafe57493abbe379fdac6b838eeee0f7",
                         "target": "tags-taxonomy",
                     },
                     {
-                        "source": "449efa6ffc5d56c4a41694741bda767e",
+                        "source": "dafe57493abbe379fdac6b838eeee0f7",
                         "target": "tags-terms",
                     },
             
                     {
-                        "source": "59cf651772d90de0c0e7752b4d5322f6",
+                        "source": "a6060acf0b7848ef70bde960b4194847",
                         "target": "tags-authoring",
                     },
                     {
-                        "source": "59cf651772d90de0c0e7752b4d5322f6",
+                        "source": "a6060acf0b7848ef70bde960b4194847",
                         "target": "tags-redaksi",
                     },
                     {
-                        "source": "59cf651772d90de0c0e7752b4d5322f6",
+                        "source": "a6060acf0b7848ef70bde960b4194847",
                         "target": "tags-riwayat",
                     },
+            
+            
             
             
             
