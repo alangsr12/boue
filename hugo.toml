@@ -108,8 +108,6 @@ enableRobotsTXT = true
     author = "author"
 
 ## Site parameters
-[params]
-    ## Site title
     [params]
     title = "BOÜE"
     description = "Mi búnker digital"
@@ -127,7 +125,12 @@ enableRobotsTXT = true
     DisableFootBar = false
     ## Merge site license, footer menu and coffee stat
     unifiedFooter = true
-
+[params.greeter]
+    enable = true
+    layout = "main"
+    title = "Bienvenido a BOÜE"
+    content = "Archivo de notas técnicas y proyectos personales."
+    center = false
     ## Author information
     [params.author]
         ## site author's name
