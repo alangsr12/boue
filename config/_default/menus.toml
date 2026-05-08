@@ -1,9 +1,0 @@
-[[main]]
-  name = "Blog"
-  url = "/post/"
-  weight = 1
-
-[[main]]
-  name = "Sobre mí"
-  url = "/about/"
-  weight = 2
