@@ -1,25 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
-  <channel>
-    <title>Configuración on BOÜE</title>
-    <link>http://localhost/boue/tags/configuraci%C3%B3n/</link>
-    <description>Publicaciones recientes en Configuración en BOÜE</description>
-    <generator>Hugo 0.157.0</generator>
-    <language>es-ES</language>
-    <managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor>
-    <webMaster>alangsr@gmail.com (Alan Sarco)</webMaster>
-    <lastBuildDate>Thu, 07 May 2026 19:30:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost/boue/tags/configuraci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cómo personalizar colores y logos</title>
-      <link>http://localhost/boue/post/configurando-el-tema/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <author>alangsr@gmail.com (Alan Sarco)</author>
-      <dc:creator>Alan G Sarco</dc:creator>
-      <guid>http://localhost/boue/post/configurando-el-tema/</guid>
-      <description>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;&#xA;&lt;h3 id=&#34;pasos-clave&#34;&gt;Pasos clave:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;&#xA;&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-      <content:encoded>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;&#xA;&lt;h3 id=&#34;pasos-clave&#34;&gt;Pasos clave:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;&#xA;&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;</content:encoded>
-      <category>Authoring</category>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Configuración on BOÜE</title><link>http://localhost:1313/boue/tags/configuraci%C3%B3n/</link><description>Publicaciones recientes en Configuración en BOÜE</description><generator>Hugo 0.157.0</generator><language>es-ES</language><managingEditor>alangsr@gmail.com (Alan Sarco)</managingEditor><webMaster>alangsr@gmail.com (Alan Sarco)</webMaster><lastBuildDate>Fri, 08 May 2026 04:02:58 +0000</lastBuildDate><atom:link href="http://localhost:1313/boue/tags/configuraci%C3%B3n/index.xml" rel="self" type="application/rss+xml"/><item><title>Cómo personalizar colores y logos</title><link>http://localhost:1313/boue/post/configurando-el-tema/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><author>alangsr@gmail.com (Alan Sarco)</author><dc:creator>Alan G Sarco</dc:creator><guid>http://localhost:1313/boue/post/configurando-el-tema/</guid><description>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;
+&lt;h3 id="pasos-clave"&gt;Pasos clave:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;
+&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;
+&lt;/ol&gt;</description><content:encoded>&lt;p&gt;Personalizar este tema es sencillo. Según la &lt;strong&gt;Guía de Logos y Colores&lt;/strong&gt;, puedes cambiar el color de acento directamente en tu &lt;code&gt;hugo.toml&lt;/code&gt; para que se alinee con tu marca [4].&lt;/p&gt;
+&lt;h3 id="pasos-clave"&gt;Pasos clave:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Prepara tu logo en formato &lt;strong&gt;SVG&lt;/strong&gt; o &lt;strong&gt;PNG&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Configura las dimensiones (se recomiendan entre &lt;strong&gt;50px y 70px&lt;/strong&gt; de alto) [4].&lt;/li&gt;
+&lt;li&gt;Activa el modo oscuro si lo deseas para una mejor accesibilidad [5].&lt;/li&gt;
+&lt;/ol&gt;</content:encoded><category>Authoring</category></item></channel></rss>
