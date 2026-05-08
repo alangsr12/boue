@@ -14,7 +14,7 @@ defaultContentLanguageInSubdir = false
 [languages]
   [languages.es]
     languageName = 'Español'
-    contentDir = 'content/es' # Apuntamos directo a tu nueva carpeta
+    contentDir = 'content' # Apuntamos directo a tu nueva carpeta
     weight = 1
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
