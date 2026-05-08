@@ -154,7 +154,7 @@ enableRobotsTXT = true
     ## Comments configuration
     [params.comments]
         ## Disable comments (disable fediverse comments)
-        disabled = false
+        disabled = true
         ## Comment platform selection, currently only 'fediverse' is supported, further options to be determined
         # platform = 'fediverse'
 
@@ -216,7 +216,7 @@ enableRobotsTXT = true
         ## override maximum series/related post count
         # RelatedLimit = 5
         ## Show share buttons
-        share = true
+        share = false
 
     ## Search configuration
     [params.search]
