@@ -29,8 +29,9 @@
     background: #4f36b5;
     color: #fff;
 }
-
+/* Oculta la caja de redes sociales al final pero mantiene el botón nativo */
 #has-share {
+    display: none !important;
     margin:var(--vskip);
     padding-bottom: 2pt; 
 }
