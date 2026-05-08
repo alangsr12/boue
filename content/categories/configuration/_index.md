@@ -1,8 +1,6 @@
 +++
-title = "Configuration"
-description = "Ajustes de sistema, terminal y personalización del búnker."
-slug = "configuration"
-
+title = 'Configuration'
+slug = 'configuration'
 [params]
-    accent = "orange"
+accent = 'orange'
 +++
