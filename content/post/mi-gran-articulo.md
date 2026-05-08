@@ -1,13 +1,11 @@
 +++
 title = "Mi gran artículo"
-date = "2026-01-08T03:48:00-03:00"
-lastmod = "2026-05-02T10:00:00-03:00"
+date = "2026-03-08T03:48:00-03:00"
+lastmod = "2026-04-08T10:00:00-03:00"
 author = "alan"
 type = "post"
-draft = false
-tags = ["Authoring", "Configuration"]
-categories = ["Manuales"]
-stage = "seedling"
+history = [
+    {date = "2026-03-08", stage="seedling"},
+    {date = "2026-04-08", stage="budding"}
+]
 +++
-
-Aquí va el cuerpo de tu artículo. Ahora con el formato TOML, el CSS debería cargar perfectamente.
