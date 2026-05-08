@@ -1,7 +1,7 @@
 ---
 title: "Mi gran artículo"
-date: 2026-05-08T03:48:00-03:00
-lastmod: 2026-05-08T10:00:00-03:00
+date: 2026-04-08T03:48:00-03:00
+lastmod: 2026-04-08T10:00:00-03:00
 author: "alan"
 description: "Una breve descripción para que aparezca en los buscadores y redes."
 tags: ["Authoring", "Configuration"]
