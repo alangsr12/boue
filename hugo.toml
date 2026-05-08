@@ -11,3 +11,9 @@ theme = 'hugo-brewm'
     title = "Bienvenido a BOÜE"
     content = "Este es mi búnker digital donde archivo mis proyectos y notas técnicas."
     center = false
+
+    [params.home]
+    # Esto activa la sección de los cuadros de categorías
+    showCategories = true
+    # Cantidad de categorías a mostrar
+    numberOfCategories = 4
