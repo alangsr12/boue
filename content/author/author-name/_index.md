@@ -6,7 +6,7 @@ flair: 'Available for hire (example flair)'
 draft: true
 ---
 
-## Author Name
+## Alan Sarco
 
 This author information is written in `content/en/author/author-name/_index.md`.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
