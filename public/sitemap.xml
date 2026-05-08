@@ -2,123 +2,179 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alangsr12.github.io/boue/categories/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/author/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/hola/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/categories/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/tufte-features/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/categories/latex/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/authoring/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/authoring-fullscreen-content/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://alangsr12.github.io/boue/post/authoring-cover-images-and-audio-article/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://alangsr12.github.io/boue/post/authoring-fullscreen-content/" />
+  </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/content/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/map/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/media/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
     <loc>https://alangsr12.github.io/boue/fullscreen-example/</loc>
     <lastmod>2026-05-08T05:24:57+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/tags/alt/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/audio/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/authoring/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/gambar/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/konten/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/media/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-sampul-dan-audio/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/sampul/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/cover/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-entri-terms/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-riwayat-redaksi/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/redaksi/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/tags/riwayat/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/post/authoring-custom-taxonomy/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
     <loc>https://alangsr12.github.io/boue/tags/taxonomy/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/alt/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/audio/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/authoring-cover-images-and-audio-article/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://alangsr12.github.io/boue/post/authoring-fullscreen-content/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://alangsr12.github.io/boue/post/authoring-cover-images-and-audio-article/" />
+  </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/cover/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/images/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/authoring-terms-entry/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/authoring-redaction-history/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/history/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/redaction/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
     <loc>https://alangsr12.github.io/boue/tags/terms/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-diskusi/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-footer-situs/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-logo-dan-aksen-warna/</loc>
+    <loc>https://alangsr12.github.io/boue/tags/accent/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-menu/</loc>
+    <loc>https://alangsr12.github.io/boue/tags/color/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/configuration/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/configure-discussion/</loc>
+    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/configure-slides/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/configure-logo-and-accent-color/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/configure-main-footer/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/configure-menu/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-pagefind/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/post/configure-pagefind/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/mengatur-slide/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/tags/discussion/</loc>
+    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/tes-markdown/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <loc>https://alangsr12.github.io/boue/tags/footer/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/categories/homepage/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/logo/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/markdown/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/post/markdown-test/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/menu/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/pagefind/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    </url>
+  <url>
+    <loc>https://alangsr12.github.io/boue/tags/slide/</loc>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
     </url>
   <url>
     <loc>https://alangsr12.github.io/boue/</loc>
     <lastmod>2026-05-08T05:24:57+00:00</lastmod>
     </url>
   <url>
-    <loc>https://alangsr12.github.io/boue/post/articulo/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
-    </url>
-  <url>
     <loc>https://alangsr12.github.io/boue/author/a.n.-other/</loc>
-    <lastmod>2026-05-08T05:24:57+00:00</lastmod>
-    </url>
-  <url>
-    <loc>https://alangsr12.github.io/boue/author/</loc>
     <lastmod>2026-05-08T05:24:57+00:00</lastmod>
     </url>
   <url>
@@ -165,7 +221,8 @@
   </url>
   <url>
     <loc>https://alangsr12.github.io/boue/post/</loc>
-    <lastmod>2026-05-08T05:54:58+00:00</lastmod>
+    <lastmod>2026-05-08T06:04:46+00:00</lastmod>
+    <changefreq>always</changefreq>
     </url>
   <url>
     <loc>https://alangsr12.github.io/boue/stage/seedling/</loc>

@@ -8,8 +8,58 @@
     <language>es</language>
     <managingEditor>email@example.com (Author Name)</managingEditor>
     <webMaster>email@example.com (Author Name)</webMaster>
-    <lastBuildDate>Fri, 08 May 2026 05:58:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 06:06:16 +0000</lastBuildDate>
     <atom:link href="https://alangsr12.github.io/boue/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authoring</title>
+      <link>https://alangsr12.github.io/boue/tags/authoring/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/authoring/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>https://alangsr12.github.io/boue/tags/content/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/content/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Map</title>
+      <link>https://alangsr12.github.io/boue/tags/map/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/map/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>https://alangsr12.github.io/boue/tags/media/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/media/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Taxonomy</title>
+      <link>https://alangsr12.github.io/boue/tags/taxonomy/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/taxonomy/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
     <item>
       <title>Alt</title>
       <link>https://alangsr12.github.io/boue/tags/alt/</link>
@@ -31,59 +81,9 @@
       <content:encoded></content:encoded>
     </item>
     <item>
-      <title>Authoring</title>
-      <link>https://alangsr12.github.io/boue/tags/authoring/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <author>email@example.com (Author Name)</author>
-      <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/authoring/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    <item>
-      <title>Gambar</title>
-      <link>https://alangsr12.github.io/boue/tags/gambar/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <author>email@example.com (Author Name)</author>
-      <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/gambar/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    <item>
-      <title>Konten</title>
-      <link>https://alangsr12.github.io/boue/tags/konten/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <author>email@example.com (Author Name)</author>
-      <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/konten/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    <item>
-      <title>Media</title>
-      <link>https://alangsr12.github.io/boue/tags/media/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <author>email@example.com (Author Name)</author>
-      <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/media/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    <item>
-      <title>Sampul</title>
-      <link>https://alangsr12.github.io/boue/tags/sampul/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <author>email@example.com (Author Name)</author>
-      <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/sampul/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    <item>
       <title>Cover</title>
       <link>https://alangsr12.github.io/boue/tags/cover/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>email@example.com (Author Name)</author>
       <dc:creator>Author Name</dc:creator>
       <guid>https://alangsr12.github.io/boue/tags/cover/</guid>
@@ -91,32 +91,32 @@
       <content:encoded></content:encoded>
     </item>
     <item>
-      <title>Redaksi</title>
-      <link>https://alangsr12.github.io/boue/tags/redaksi/</link>
-      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Images</title>
+      <link>https://alangsr12.github.io/boue/tags/images/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <author>email@example.com (Author Name)</author>
       <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/redaksi/</guid>
+      <guid>https://alangsr12.github.io/boue/tags/images/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
-      <title>Riwayat</title>
-      <link>https://alangsr12.github.io/boue/tags/riwayat/</link>
+      <title>History</title>
+      <link>https://alangsr12.github.io/boue/tags/history/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>email@example.com (Author Name)</author>
       <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/riwayat/</guid>
+      <guid>https://alangsr12.github.io/boue/tags/history/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
     <item>
-      <title>Taxonomy</title>
-      <link>https://alangsr12.github.io/boue/tags/taxonomy/</link>
+      <title>Redaction</title>
+      <link>https://alangsr12.github.io/boue/tags/redaction/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       <author>email@example.com (Author Name)</author>
       <dc:creator>Author Name</dc:creator>
-      <guid>https://alangsr12.github.io/boue/tags/taxonomy/</guid>
+      <guid>https://alangsr12.github.io/boue/tags/redaction/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>
@@ -129,6 +129,99 @@
       <guid>https://alangsr12.github.io/boue/tags/terms/</guid>
       <description></description>
       <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Accent</title>
+      <link>https://alangsr12.github.io/boue/tags/accent/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/accent/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Color</title>
+      <link>https://alangsr12.github.io/boue/tags/color/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/color/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Configuration</title>
+      <link>https://alangsr12.github.io/boue/tags/configuration/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/configuration/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Discussion</title>
+      <link>https://alangsr12.github.io/boue/tags/discussion/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/discussion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Footer</title>
+      <link>https://alangsr12.github.io/boue/tags/footer/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/footer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logo</title>
+      <link>https://alangsr12.github.io/boue/tags/logo/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/logo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://alangsr12.github.io/boue/tags/markdown/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Menu</title>
+      <link>https://alangsr12.github.io/boue/tags/menu/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/menu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pagefind</title>
+      <link>https://alangsr12.github.io/boue/tags/pagefind/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/pagefind/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slide</title>
+      <link>https://alangsr12.github.io/boue/tags/slide/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/tags/slide/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

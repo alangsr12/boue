@@ -8,8 +8,28 @@
     <language>es</language>
     <managingEditor>email@example.com (Author Name)</managingEditor>
     <webMaster>email@example.com (Author Name)</webMaster>
-    <lastBuildDate>Fri, 08 May 2026 05:58:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 06:06:16 +0000</lastBuildDate>
     <atom:link href="https://alangsr12.github.io/boue/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latex</title>
+      <link>https://alangsr12.github.io/boue/categories/latex/</link>
+      <pubDate>Fri, 06 Feb 2026 13:56:01 -0800</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/categories/latex/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <link>https://alangsr12.github.io/boue/categories/homepage/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://alangsr12.github.io/boue/categories/homepage/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
     <item>
       <title>Authoring</title>
       <link>https://alangsr12.github.io/boue/categories/authoring/</link>
