@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="post">
+    <header>
+        <h1 id="title">{{ .Title }}</h1>
+        {{ partial "post/meta.html" . }}
+    </header>
+    
+    <section id="content" class="content">
+        {{ .Content }}
+    </section>
+
+    {{/* Mantiene el QR y datos del post, pero quita compartir/comentarios */}}
+    <div id="contentinfo">
+        {{- if or .Params.colophon site.Params.posts.colophon }}
+            {{ partial "post/colophon.html" . }}
+        {{- end }}
+    </div>
+</article>
+{{ end }}
