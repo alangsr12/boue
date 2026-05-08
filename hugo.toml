@@ -111,7 +111,7 @@ enableRobotsTXT = true
     [params]
     title = "BOÜE"
     description = "Mi búnker digital"
-    copyright = "Copyleft 2026 &copy; Alan Sarco" [cite: 8, 9]
+    copyright = "Copyleft 2026 &copy; Alan Sarco"
     extMeta = true
     ## Enable coffee metric
     coffeeStat = true
