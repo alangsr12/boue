@@ -1,0 +1,8 @@
+baseURL = 'https://alangsr12.github.io/boue/'
+languageCode = 'es'
+title = 'BOÜE'
+theme = 'hugo-brewm'
+
+[params]
+    description = "Mi búnker digital"
+    # Aquí iremos agregando lo que necesites del colofón después
