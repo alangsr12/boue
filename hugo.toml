@@ -9,9 +9,14 @@ enableGitInfo = true
 ## Convert all URLs to absolute URLs
 canonifyURLs = true
 ## Default language for content
-defaultContentLanguage = 'en'
-## Put default language in subdirectory
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.es]
+    languageName = 'Español'
+    contentDir = 'content' # Esto es clave
+    weight = 1
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
 ## Use sections for main menu
