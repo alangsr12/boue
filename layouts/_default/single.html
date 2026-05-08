@@ -1,0 +1,35 @@
+{{- define "main" }}
+    {{- $isPost := eq .Params.type (or "post" "articles") }}
+    {{- $sf := or site.Params.Posts.sfdefault .Params.sfdefault }}
+
+    {{/* Usamos el ID y las clases originales (pagewidth) para corregir el desfase */}}
+    <article id="main-article" class="pagewidth {{ if or (not $isPost) $sf }}sf{{ else }}rm{{ end }}" role="document" aria-labelledby="title" data-pagefind-body>
+        <header aria-labelledby="title">
+            {{ partial "page/title.html" . }}
+            {{- if $isPost }}
+                <div id="doc-author" class="textsw">
+                    {{- $author := cond .Params.author .Params.author site.Params.Author.name }}
+                    <span>{{ $author }}</span>
+                </div>
+                {{ partial "page/timestamp.html" . }}
+            {{- end }}
+        </header>
+
+        <section id="content" class="content" aria-labelledby="title" data-bionRead-safe>
+            {{ .Content }}
+        </section>
+    </article>
+{{- end }}
+
+{{- define "exclude" }}
+    <div class="pagewidth">
+        <hr />
+        <div id="contentinfo" role="contentinfo" data-pagefind-ignore="all">
+            {{/* Conservamos ÚNICAMENTE el Colophon (Código QR) */}}
+            {{- if or .Params.colophon site.Params.posts.colophon }}
+                {{ partial "post/colophon.html" . }}
+            {{- end }}
+        </div>
+        {{/* Aquí irían los comentarios, pero los hemos podado por completo */}}
+    </div>
+{{- end }}
