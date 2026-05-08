@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Tags on Example</title>
+    <link>https://foxihd.github.io/hugo-brewm/tags/</link>
+    <description>Publicaciones recientes en Tags en Example</description>
+    <generator>Hugo 0.157.0</generator>
+    <language>es</language>
+    <managingEditor>email@example.com (Author Name)</managingEditor>
+    <webMaster>email@example.com (Author Name)</webMaster>
+    <lastBuildDate>Fri, 08 May 2026 05:26:24 +0000</lastBuildDate>
+    <atom:link href="https://foxihd.github.io/hugo-brewm/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alt</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/alt/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/alt/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/audio/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/audio/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Authoring</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/authoring/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/authoring/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Gambar</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/gambar/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/gambar/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Konten</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/konten/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/konten/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/media/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/media/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Sampul</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/sampul/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/sampul/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Cover</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/cover/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/cover/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Redaksi</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/redaksi/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/redaksi/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Riwayat</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/riwayat/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/riwayat/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Taxonomy</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/taxonomy/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/taxonomy/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Terms</title>
+      <link>https://foxihd.github.io/hugo-brewm/tags/terms/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <author>email@example.com (Author Name)</author>
+      <dc:creator>Author Name</dc:creator>
+      <guid>https://foxihd.github.io/hugo-brewm/tags/terms/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>

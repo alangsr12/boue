@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <!-- head.html --><!-- meta.html -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Example Fullscreen Map | Example</title>
+<meta name="author" content="Author Name">
+<link rel="canonical" href="https://foxihd.github.io/hugo-brewm/fullscreen-example/">
+
+
+
+    
+    <!-- twitterCard -->
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Example Fullscreen Map | Example" />
+    <meta name="twitter:description" content="" />
+        <meta name="twitter:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
+    
+    <!-- openGraph -->
+    <meta property="og:title" content="Example Fullscreen Map | Example" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://foxihd.github.io/hugo-brewm/fullscreen-example/" />
+        <meta property="og:image" content="https://repository-images.githubusercontent.com/923527728/46a32a19-69ac-45b3-91a4-c4d299fb234b" />
+    <meta property="og:site_name" content="Example" />
+    <!-- js.html -->
+                <script src="https://foxihd.github.io/hugo-brewm/hugo-brewm.min.js"
+                    integrity="sha256-&#43;kKfVT/XVIa/FGLnnLFurLSml00LmG4dcTOP984rxjI=" crossorigin="anonymous"
+                    defer></script><!-- css.html -->
+                <link rel="stylesheet" href="https://foxihd.github.io/hugo-brewm/hugo-brewm.min.css" integrity="sha256-qlHMaDkb9LchUEWQX4/YVp7AOjl7PHH5NJG59aTgDdk=" crossorigin="anonymous">
+
+
+
+    
+    <!-- css/inline.html -->
+    <style>
+         
+        body {max-width: 786px; margin: auto; padding: 2rem;}
+        img {max-width: 86vw;}
+    </style>
+    <style>
+         
+         
+         
+        #fullscreen {
+            --void: calc(1.5rem + 1ex);
+        }
+
+        #fullscreen #main-article {
+            margin: 0;
+            height: var(--vbody);
+        }
+
+         
+        #focusMode,
+         
+        #useBionRead,
+         
+        #to-top {
+            display: none !important;
+        }
+
+         
+        nav#content {
+            position: fixed;
+            right: var(--void);
+            bottom: 0;
+            z-index: 3;
+            margin: 0;
+        }
+
+        nav#content > a {
+            display: flex;
+            align-items: center;
+            padding: 0 1.5ex;
+            height: var(--vfoot);
+            color: var(--fg);
+            font-size: calc(1em - 2pt);
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body id="fullscreen">
+    
+    <!-- header.html -->
+<header class="pagewidth">
+    <div id="background-header" class="background" aria-hidden="true"></div>
+    
+    <nav aria-label="Saltar">
+        <a id="to-content" href="#content" aria-label="Ir al contenido principal">
+            <span>Ir al contenido principal</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+            <span class="screening" aria-hidden="true"></span>
+        </a>
+    </nav>
+    
+    <!-- logo.html -->
+    <div id="logo">
+        <a href="https://foxihd.github.io/hugo-brewm/" aria-label="Example" aria-description="Página principal"><svg id="logotype" xmlns="http://www.w3.org/2000/svg" version="1.1" width="196pt" aria-label="Example">
+                        <text id="logotype__text" y="19.5pt" x="0">Example</text>
+                    </svg>
+        </a>
+        <hr class="hide"/>
+    </div>
+    
+    <details class="presentation" id="top-nav">
+        <summary class="on-deck">
+            <span class="t">Navegación</span>
+            <span class="menu-icon" role="presentation"></span>
+        </summary>
+        <nav tabindex="-1" aria-label="Inicio">
+            <!-- menu.html -->
+            <!-- search.html -->
+<details id="has-search" class="presentation js-details" name="on-deck">
+    <summary class="on-deck srm" accesskey="q" aria-labelledby="search-label" aria-keyshortcuts="q">
+        <span id="search-label" class="t srt">Buscar</span>
+    </summary>
+    
+        <!-- pagefind.html -->
+    <div id="search" class="on-hull">
+        <div role="presentation" class="screening js-cgpn"></div>
+    </div>
+    <script src="https://foxihd.github.io/hugo-brewm/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <script>
+        let pageFindInitialized = false;
+        const initPageFind = function(event) {
+            if (!pageFindInitialized) {
+                new PagefindUI({
+                    element: "#search",
+                    showImages: false,
+                    translations: {
+                        placeholder: "Buscar"
+                    }
+                });
+                
+                const pFInput = document.querySelector('.pagefind-ui__search-input');
+                if (pFInput) {
+                    pFInput.setAttribute('aria-label', pFInput.getAttribute('placeholder'));
+                    pFInput.setAttribute('name', pFInput.getAttribute('placeholder'));
+                }
+                pageFindInitialized = true;
+                document.removeEventListener('DOMContentLoaded', initPageFind);
+            }
+        };
+        document.addEventListener('DOMContentLoaded', initPageFind);
+    </script>
+        <noscript id="has-search-fallback" class="on-hull">
+                
+    <!-- duckduckgo.html -->
+    <form id="duckduckgo" class="form on-plank"
+        name="[i18n] seach" action="//duckduckgo.com/"
+        role="search" aria-label="Buscar">
+        <input type="hidden" value="foxihd.github.io" name="sites"></input>
+        <input type="hidden" value="1" name="kh"></input>
+        <input type="hidden" value="1" name="kn"></input>
+        <input type="hidden" value="1" name="kac"></input>
+        <input class="ldots form__input" type="search" placeholder="Buscar" name="q" role="searchbox"></input>
+        <button class="form__button" type="submit" aria-label="Buscar">
+            <img src="https://duckduckgo.com/assets/logo_header.v109.svg" alt="Buscar" role="presentation" aria-hidden="true">
+        </button>
+    </form>
+    <div role="presentation" class="screening js-cgpn"></div>
+        </noscript>
+    
+</details>
+
+            <!-- menu.html -->
+            <!-- i18n.html -->
+
+        </nav>
+        <div id="top-nav-screen" class="screening js-cpn" role="presentation" aria-hidden="true"></div>
+        <hr class="hide"/>
+    </details>
+</header>
+    
+    <main id="page">
+        
+    <div id="main-article">
+        <iframe src="https://www.openstreetmap.org/export/embed.html" width="100%" height="100%" style="border:none; "></iframe>
+
+            <nav id="content">
+                <a href="https://www.openstreetmap.org/"
+                   target="_blank" rel="external noopener noreferrer nofollow">
+                    <span>Enlace</span>
+                </a>
+            </nav>
+    </div>
+    </main>
+
+    
+    <!-- footer.html -->
+<footer id="body-footer" class="pagewidth">
+    <div id="background-footer" class="background hide" role="presentation" aria-hidden="true"></div>
+    <div id="focusMode"></div>
+    <!-- a11y.html --><details id="has-a11y" class="presentation js-details hide" name="on-deck" aria-haspopup="true" aria-labelledby="has-a11y-summary"
+    data-i18n-accessibility="Accesibilidad"
+    data-i18n-optimizeSR="Optimizar para lectores de pantalla"
+    data-i18n-optimizeSRdesc="Optimizar la visualización y los recursos para usuarios de lectores de pantalla que navegan con un dispositivo puntero."
+    data-i18n-colorSettings="Configuración de color"
+    data-i18n-darkMode="Modo oscuro"
+    data-i18n-light="Claro"
+    data-i18n-dark="Oscuro"
+    data-i18n-contrast="Contraste"
+    data-i18n-lessContrast="Bajo"
+    data-i18n-moreContrast="Alto"
+    data-i18n-defaultContrast="Predeterminado"
+    data-i18n-colorPalette="Paleta de color"
+    data-i18n-defaultColor="Predeterminado"
+    data-i18n-deuteranopia="Deuteranopía"
+    data-i18n-protanopia="Protanopía"
+    data-i18n-tritanopia="Tritanopía"
+    data-i18n-monochrome="Monocromo"
+    data-i18n-fontSize="Tamaño de letra"
+    data-i18n-baselineStretch="Baseline Stretch"
+    data-i18n-OpenDyslexic="Usar fuente OpenDyslexic"
+    data-i18n-menuControls="Controles del menú de accesibilidad"
+    data-i18n-save="Guardar"
+    data-i18n-reset="Restablecer"
+    data-i18n-close="Cerrar"
+    data-i18n-bionRead="Lectura Bionica"
+    data-i18n-focusMode="Modo concentración"
+    data-i18n-noLocalStorage="LocalStorage no está disponible en tu navegador. La configuración no será guardada.">
+</details>
+
+
+    <div id="useBionRead" class="sri"></div>
+    <!-- [top] bypass block -->
+    <nav aria-label="Saltar">
+        <a id="to-top" class="srm" href="#top" title="Ir al inicio del contenido" accesskey="c" aria-keyshortcuts="c" aria-label="Ir al inicio del contenido">
+            <span class="t srt">Ir al inicio del contenido</span>
+            <kbd class="key" aria-hidden="true" data-key="c"></kbd>
+        </a>
+    </nav>
+</footer>
+    <div id="background-body" role="presentation" aria-hidden="true"></div>
+</html>
