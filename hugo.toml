@@ -6,3 +6,8 @@ theme = 'hugo-brewm'
 [params]
     description = "Mi búnker digital"
     # Aquí iremos agregando lo que necesites del colofón después
+    [params.greeter]
+    enable = true
+    title = "Bienvenido a BOÜE"
+    content = "Este es mi búnker digital donde archivo mis proyectos y notas técnicas."
+    center = false
