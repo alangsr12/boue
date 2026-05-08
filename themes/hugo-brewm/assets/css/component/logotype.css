@@ -50,7 +50,7 @@
     }
 
     100% {
-        fill: #0000;
+        fill: #d1d1d1f0;
         stroke-dasharray: 50% 0;
         stroke-dashoffset: -20%;
     }
@@ -64,7 +64,7 @@
     }
 
     100% {
-        fill: #0000;
+        fill: #c5c5c5e3;
         stroke-dasharray: 50% 0;
         stroke-dashoffset: -20%;
     }
