@@ -2,15 +2,19 @@
 <article class="post">
     <header>
         <h1 id="title">{{ .Title }}</h1>
-        {{ partial "post/meta.html" . }}
+        {{/* Reemplazo de partial "post/meta.html" por código directo para evitar errores de compilación */}}
+        <div class="post-meta" style="margin-bottom: 1rem; opacity: 0.8;">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
+            {{ with .Params.author }}<span> • {{ . }}</span>{{ end }}
+        </div>
     </header>
     
     <section id="content" class="content">
         {{ .Content }}
     </section>
 
-    {{/* Mantiene el QR y datos del post, pero quita compartir/comentarios */}}
-    <div id="contentinfo">
+    {{/* Bloque final: Se incluye únicamente el Colofón para generar el código QR */}}
+    <div id="contentinfo" style="margin-top: 2rem;">
         {{- if or .Params.colophon site.Params.posts.colophon }}
             {{ partial "post/colophon.html" . }}
         {{- end }}
