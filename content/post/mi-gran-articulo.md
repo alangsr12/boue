@@ -1,15 +1,15 @@
-+++
-title = "Mi gran artículo"
-date = "2024-01-01"
-author = "alan"
-type = "post"
-categories = ["Configuration"]  # <--- ESTO activa los cuadros
-pinned = true
-+++
-Para ver las categorías en la parte superior derecha de tu pantalla, tal como se muestra en la imagen del autor (donde aparecen "Authoring", "Configuration", "Latex"), el proceso es automático, pero requiere que tus publicaciones cumplan con tres requisitos específicos en sus archivos .md.Aquí tienes la guía definitiva para activarlas ahora mismo:1. El detonante: El Front MatterHugo no mostrará esos cuadros si no hay contenido asociado a ellos. Debes entrar a tus archivos en content/post/ y añadir la línea de categorías.Asegúrate de que tus archivos se vean así:toml+++
-title = "Mi gran artículo"
-date = "2024-01-01"
-type = "post"
-categories = ["Authoring", "Configuration"]  # <--- ESTO activa los cuadros
-+++
-Usa el código con precaución.Importante: Debes escribirlo exactamente así: categories = ["Nombre"], con comillas y corchetes.
+---
+title: "Mi gran artículo"
+date: 2026-05-08T03:48:00-03:00
+lastmod: 2026-05-08T10:00:00-03:00
+author: "alan"
+description: "Una breve descripción para que aparezca en los buscadores y redes."
+tags: ["Authoring", "Configuration"]
+categories: ["Manuales"]
+---
+
+Aquí va el cuerpo de tu artículo. Como tenés configuradas las fechas de creación (`date`) y modificación (`lastmod`), Hugo ahora debería renderizar el bloque de **Redaction History** en el colofón.
+
+### Notas sobre las secciones:
+* **Relacionados:** Para que aparezca el "You might also like", recordá que necesitás tener al menos otro post que comparta los tags "Authoring" o "Configuration".
+* **Estado:** Si querés usar el sistema de "etapas" del tema (como se ve en la captura original con los puntitos), podés agregar `stage: "evergreen"` o `stage: "seedling"` al encabezado de arriba.
