@@ -10,7 +10,7 @@ stage = "budding"
 categories = ["Authoring"]
 
 [params]                      # <-- Bloque necesario para el tema
-  headless = true
+  headless = false
 +++
 Lorem ipsum dolor sit amet. Este contenido está en crecimiento (budding).
 

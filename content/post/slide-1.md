@@ -10,6 +10,6 @@ stage = "evergreen"
 categories = ["Configuration"]
 
 [params]                      # <-- Añade esto para que sea 
-  headless = true
+  headless = false
 +++
 Lorem ipsum dolor sit amet. Este es un slide maduro.

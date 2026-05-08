@@ -7,7 +7,7 @@ pinned = true
 draft = false
 
 [params]
-  headless = true
+  headless = false
 +++
 
 Lorem ipsum dolor sit amet. Este es el texto que debe aparecer en el carrusel.
