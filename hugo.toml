@@ -14,7 +14,7 @@ defaultContentLanguageInSubdir = false
 [languages]
   [languages.es]
     languageName = 'Español'
-    contentDir = 'content' # Esto es clave
+    contentDir = 'content/es' # Apuntamos directo a tu nueva carpeta
     weight = 1
 ## Show placeholder for missing translations
 enableMissingTranslationPlaceholders = true
@@ -110,14 +110,10 @@ enableRobotsTXT = true
 ## Site parameters
 [params]
     ## Site title
+    [params]
     title = "BOÜE"
-    ## Site description
-    description = "Mi búnker digital - Archivo de notas técnicas"
-    ## Copyright notice
-    copyright = "Copyleft 2026 &copy; Alan Sarco"
-    ## Hide "powered by hugo" on colophon
-    # HideHugoCredit = true
-    ## Enable extended metadata (social cards)
+    description = "Mi búnker digital"
+    copyright = "Copyleft 2026 &copy; Alan Sarco" [cite: 8, 9]
     extMeta = true
     ## Enable coffee metric
     coffeeStat = true
