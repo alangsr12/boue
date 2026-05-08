@@ -1,7 +1,7 @@
 ## Base URL for the site
-baseURL = 'https://foxihd.github.io/hugo-brewm/'
+baseURL = 'https://alangsr12.github.io/boue/'
 ## Site title
-title = 'Example'
+title = 'BOÜE'
 ## Use hugo-brewm theme
 theme = 'hugo-brewm'
 ## Enable Git information for pages, (e.g. lastMod date information)
@@ -11,7 +11,6 @@ canonifyURLs = true
 ## Default language for content
 defaultContentLanguage = 'es'
 defaultContentLanguageInSubdir = false
-
 [languages]
   [languages.es]
     languageName = 'Español'
@@ -111,11 +110,11 @@ enableRobotsTXT = true
 ## Site parameters
 [params]
     ## Site title
-    title = "Example"
+    title = "BOÜE"
     ## Site description
-    description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
+    description = "Mi búnker digital - Archivo de notas técnicas"
     ## Copyright notice
-    copyright = "Copyleft 2025 &copy; Author"
+    copyright = "Copyleft 2026 &copy; Alan Sarco"
     ## Hide "powered by hugo" on colophon
     # HideHugoCredit = true
     ## Enable extended metadata (social cards)
