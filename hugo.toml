@@ -190,12 +190,14 @@ enableRobotsTXT = true
 
     ## Home page display settings
     [params.home]
-        ## Enable slide has-crsl
-        disableSlide = false
-        ## Enable taxonomy listing has-crsl
+# Activa los cuadros de categorías arriba
         disableListing = false
-        ## Select taxonomy listing to be featured
-        featuredListing = ['categories', 'series']
+        featuredListing = ['categories']
+        numberOfCategories = 4
+        # Activa la columna de la izquierda (Slides)
+        disableSlide = false
+        # Activa la lista de posts recientes abajo
+        showPosts = true
 
     ## Post display settings
     [params.posts]
