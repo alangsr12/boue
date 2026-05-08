@@ -1,35 +1,22 @@
-/* BLOQUEO TOTAL DE COLOR - FUERZA MÁXIMA */
-#has-share ul li a, 
-#has-share ul li a i, 
-#has-share ul li a svg,
-#has-share [class^="icon-"], 
-#has-share [class*=" icon-"] {
-    color: #888888 !important; /* Gris monocromático */
-    background: transparent !important;
-    background-color: transparent !important;
-    border: none !important;
-    filter: grayscale(100%) brightness(1) !important; /* Anula cualquier color de logo */
+/* --- AJUSTES DE ESPACIADO PARA COMPACTAR EL TÍTULO --- */
+
+/* 1. Reduce el margen inferior de los breadcrumbs/etapa */
+.section-title.pagewidth {
+    margin-bottom: 0.5rem !important;
 }
 
-/* COMPACTAR TODO EN UNA LÍNEA */
-#has-share ul {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    align-items: center !important;
-    gap: 8px !important; /* Aquí controlas la cercanía */
+/* 2. Sube el encabezado del artículo eliminando aire superior */
+.article-header {
+    padding-top: 1rem !important;
+    margin-top: 0 !important;
 }
 
-/* ACHICAR EL BUSCADOR DE MASTODON */
-#has-share .mastodon-instance-input, 
-#has-share input {
-    max-width: 100px !important;
-    background: #222 !important;
-    border: 1px solid #444 !important;
+/* 3. Pega un poco más el autor/fecha al título */
+.article-title {
+    margin-bottom: 0.25rem !important;
 }
 
-/* EFECTO HOVER SUTIL */
-#has-share ul li a:hover, 
-#has-share ul li a:hover i {
-    color: #ffffff !important;
-    filter: none !important;
+/* 4. Opcional: Reduce el espacio general de la sección si sigue muy separado */
+#main-article {
+    margin-top: 0 !important;
 }
