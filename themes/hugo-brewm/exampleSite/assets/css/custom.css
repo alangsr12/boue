@@ -5,7 +5,7 @@
     --bg-light: #f9f9fb;
     --midtone: gray;
     --fg-dark: #f9f9fb;
-    --bg-dark: #111;
+    --bg-dark: rgba(25, 25, 25, 0.97);
     --ac-dark: #fa0;
 
     /* less contrast */
