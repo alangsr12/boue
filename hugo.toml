@@ -134,12 +134,49 @@ enableRobotsTXT = true
     DisableFootBar = false
     ## Merge site license, footer menu and coffee stat
     unifiedFooter = true
+    
 [params.greeter]
     enable = true
     layout = "main"
     title = "Bienvenido a BOÜE"
     content = "Archivo de notas técnicas y proyectos personales."
     center = false
+   # --- CONFIGURACIÓN DE ESTILOS Y COLORES ---
+[params.style]
+
+    # MODO CLARO (LIGHT)
+    [params.style.light]
+        ac = "#7C897C"        # Acento
+        bg = "#F9F7F2"        # Fondo
+        fg = "#2D322E"        # Texto
+        mid = "gray"
+        
+        [params.style.light.more]
+            ac = "#E2231A"
+            bg = "#fff"
+            fg = "#000"
+        
+        [params.style.light.less]
+            ac = "#B0B0B0"
+            bg = "#EBEBEB"
+            fg = "#666666"
+
+    # MODO OSCURO (DARK)
+    [params.style.dark]
+        ac = "#4A5D4A"        # Acento
+        bg = "#1C1E1B"        # Tu fondo oscuro personalizado
+        fg = "#D1D7D1"        # Texto
+        mid = "gray"
+
+        [params.style.dark.more]
+            ac = "#007AFF"
+            bg = "#000"
+            fg = "#fff"
+
+        [params.style.dark.less]
+            ac = "#3D3D3D"
+            bg = "#2B2B2B"
+            fg = "#888888"
    ## Author information
     [params.author]
         ## site author's name
