@@ -1,33 +1,33 @@
 :root {
     /* default contrast */
-    --ac-light: #36c;
-    --fg-light: #111;
-    --bg-light: #f9f9fb;
+    --ac-light: #7C897C;
+    --fg-light: #2D322E;
+    --bg-light: #F9F7F2;
     --midtone: gray;
-    --fg-dark: #f9f9fb;
-    --bg-dark: rgba(25, 25, 25, 0.97);
-    --ac-dark: #fa0;
+    --fg-dark: #D1D7D1;
+    --bg-dark: #1C1E1B;
+    --ac-dark: #4A5D4A;
 
     /* less contrast */
-    --ac-light-less: #36c;
-    --fg-light-less: #13253d;
-    --bg-light-less: #e7e2e2;
+    --ac-light-less: #B0B0B0;
+    --fg-light-less: #666666;
+    --bg-light-less: #EBEBEB;
     --midtone-less: #7d8490;
-    --fg-dark-less: #e7e2e2;
-    --bg-dark-less: #13253d;
-    --ac-dark-less: #fa0;
+    --fg-dark-less: #888888;
+    --bg-dark-less: #2B2B2B;
+    --ac-dark-less: #3D3D3D;
 
     /* more contrast */
-    --ac-light-more: #36c;
+    --ac-light-more: #E2231A;
     --fg-light-more: #000;
     --bg-light-more: #fff;
     --midtone-more: gray;
     --fg-dark-more: #fff;
     --bg-dark-more: #000;
-    --ac-dark-more: #fa0;
+    --ac-dark-more: #007AFF;
 
     /* mark & selector highlight color */
-    --hl: yellow;
+    --hl: rgba(121, 255, 143, 0.683);
 }
 
 /* code below not available by default */
