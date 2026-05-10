@@ -15,6 +15,7 @@
     --golden-ratio: 61.803398%;
     --canonic: 70.710678%;
     --max-width: 58rem;
+    --hl: rgba(85, 181, 101, 0.57); /* Color de resaltado solicitado */
     --void: calc((29.289322vw - 1rem) / 3.14); /* 100vw - 70.710678vw */
     --vhead: 4.2rem;
     --vfoot: 3.33rem;
@@ -265,56 +266,52 @@ div + #unified-footer {
 
 }
 
-{{ $light := site.Params.style.light }}
-{{ $dark := site.Params.style.dark }}
+{{ $light := site.Params.style.light }} {{ $dark := site.Params.style.dark }}
 
-body {
-    --off: #000;
-    --ac: {{ or $light.ac "#36c" }};
-    --bg: {{ or $light.bg "#f9f9f9" }};
-    --fg: {{ or $light.fg "#111" }};
-    --mid:{{ or $light.mid "gray" }};
+/* MODO CLARO - DEFAULT CONTRAST */
+body { 
+    --off: #000; 
+    --ac: {{ or $light.ac "#7C897C" }}; 
+    --bg: {{ or $light.bg "#F9F7F2" }}; 
+    --fg: {{ or $light.fg "#2D322E" }}; 
+    --mid:{{ or $light.mid "gray" }}; 
 }
 
-@media (prefers-contrast: more),
-(-ms-high-contrast: active) {
-    body {
-        {{ with $light.more.ac }}
-            --ac: {{ . }};
-        {{ end }}
-        --bg: {{ or $light.more.bg "#fff" }};
-        --fg: {{ or $light.more.fg "#000" }};
-        {{ with $light.more.mid }}
-            --mid: {{ . }};
-        {{ end }}
-    }
+/* MODO CLARO - MORE CONTRAST */
+@media (prefers-contrast: more), (-ms-high-contrast: active) { 
+    body { 
+        {{ with $light.more.ac }} --ac: {{ . }}; {{ end }} 
+        --bg: {{ or $light.more.bg "#fff" }}; 
+        --fg: {{ or $light.more.fg "#000" }}; 
+        {{ with $light.more.mid }} --mid: {{ . }}; {{ end }} 
+    } 
 }
 
-@media (prefers-contrast: less) {
-    body {
-        {{ with $light.less.ac }}
-            --ac: {{ . }};
-        {{ end }}
-        --bg: {{ or $light.less.bg "#e7e2e2" }};
-        --fg: {{ or $light.less.fg "#13253d" }};
-        --mid:{{ or $light.less.mid "#7d8490" }}
-    }
+/* MODO CLARO - LESS CONTRAST */
+@media (prefers-contrast: less) { 
+    body { 
+        {{ with $light.less.ac }} --ac: {{ . }}; {{ end }} 
+        --bg: {{ or $light.less.bg "#EBEBEB" }}; 
+        --fg: {{ or $light.less.fg "#666666" }}; 
+        --mid:{{ or $light.less.mid "#7d8490" }} 
+    } 
 }
 
+/* MODO OSCURO */
 @media (prefers-color-scheme: dark) {
-
+    /* MODO OSCURO - DEFAULT CONTRAST */
     body {
         --off: #fff;
-        --ac: {{ or $dark.ac "#fa0" }};
-        --bg: {{ or $dark.bg "#111" }};
-        --fg: {{ or $dark.fg "#f9f9f9" }};
+        --ac: {{ or $dark.ac "#4A5D4A" }};
+        --bg: {{ or $dark.bg "#1C1E1B" }};
+        --fg: {{ or $dark.fg "#D1D7D1" }};
         {{ with $dark.mid }}
             --mid: {{ . }};
         {{ end }}
     }
 
-    @media (prefers-contrast: more),
-    (-ms-high-contrast: active) {
+    /* MODO OSCURO - MORE CONTRAST */
+    @media (prefers-contrast: more), (-ms-high-contrast: active) {
         body {
             {{ with $dark.more.ac }}
                 --ac: {{ . }};
@@ -327,13 +324,15 @@ body {
         }
     }
 
+    /* MODO OSCURO - LESS CONTRAST */
     @media (prefers-contrast: less) {
         body {
             {{ with $dark.more.ac }}
                 --ac: {{ . }};
             {{ end }}
-            --bg: {{ or $dark.more.bg "#13253d" }};
-            --fg: {{ or $dark.more.fg "#e7e2e2" }};
+            /* Nota: Se mantiene la estructura original que llama a $dark.more pero con tus colores de 'less' */
+            --bg: {{ or $dark.more.bg "#2B2B2B" }}; 
+            --fg: {{ or $dark.more.fg "#888888" }};
             {{ with $dark.more.mid }}
                 --mid: {{ . }};
             {{ end }}
