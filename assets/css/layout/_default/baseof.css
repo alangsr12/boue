@@ -291,7 +291,7 @@ body {
 @media (prefers-contrast: less) { 
     body { 
         {{ with $light.less.ac }} --ac: {{ . }}; {{ end }} 
-        --bg: {{ or $light.less.bg "#EBEBEB" }}; 
+        --bg: {{ or $light.less.bg "#31ff1e" }}; 
         --fg: {{ or $light.less.fg "#666666" }}; 
         --mid:{{ or $light.less.mid "#7d8490" }} 
     } 
@@ -331,7 +331,7 @@ body {
                 --ac: {{ . }};
             {{ end }}
             /* Nota: Se mantiene la estructura original que llama a $dark.more pero con tus colores de 'less' */
-            --bg: {{ or $dark.more.bg "#2B2B2B" }}; 
+            --bg: {{ or $dark.more.bg "#ffe81e" }}; 
             --fg: {{ or $dark.more.fg "#888888" }};
             {{ with $dark.more.mid }}
                 --mid: {{ . }};
