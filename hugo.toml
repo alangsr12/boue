@@ -157,9 +157,9 @@ enableRobotsTXT = true
             fg = "#000"
         
         [params.style.light.less]
-            ac = "#C0C0C0"
-            bg = "#EBEBEB"
-            fg = "#636363"
+            ac = "#B3A7A7"
+            bg = "#D9D2D2"
+            fg = "#8C8282"
 
     # MODO OSCURO (DARK)
     [params.style.dark]
@@ -174,9 +174,9 @@ enableRobotsTXT = true
             fg = "#fff"
 
         [params.style.dark.less]
-            ac = "#3F3F3F"
-            bg = "#2D2D2D"
-            fg = "#7A7A7A"
+            ac = "#5C667A"
+            bg = "#3A414D"
+            fg = "#89919E"
    ## Author information
     [params.author]
         ## site author's name
