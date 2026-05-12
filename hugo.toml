@@ -146,9 +146,9 @@ enableRobotsTXT = true
 
     # MODO CLARO (LIGHT)
     [params.style.light]
-        ac = "#D4D9C5"        # Acento
-        bg = "#F2EFE9"        # Fondo
-        fg = "#242921"        # Texto
+        ac = "#4ADE80"        # Acento
+        bg = "#FCF9F2"        # Fondo
+        fg = "#152A1C"        # Texto
         mid = "gray"
         
         [params.style.light.more]
@@ -163,9 +163,9 @@ enableRobotsTXT = true
 
     # MODO OSCURO (DARK)
     [params.style.dark]
-        ac = "#3E4A39"        # Acento
-        bg = "#1A1C19"        # Tu fondo oscuro personalizado
-        fg = "#CBD5C0"        # Texto
+        ac = "#A3FF12"        # Acento
+        bg = "#0D110E"        # Tu fondo oscuro personalizado
+        fg = "#E2F2E5"        # Texto
         mid = "gray"
 
         [params.style.dark.more]
