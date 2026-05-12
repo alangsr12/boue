@@ -146,37 +146,37 @@ enableRobotsTXT = true
 
     # MODO CLARO (LIGHT)
     [params.style.light]
-        ac = "#7C897C"        # Acento
-        bg = "#F9F7F2"        # Fondo
-        fg = "#2D322E"        # Texto
+        ac = "#D4D9C5"        # Acento
+        bg = "#F2EFE9"        # Fondo
+        fg = "#242921"        # Texto
         mid = "gray"
         
         [params.style.light.more]
-            ac = "#E2231A"
+            ac = "#FF3E11"
             bg = "#fff"
             fg = "#000"
         
         [params.style.light.less]
-            ac = "#B0B0B0"
+            ac = "#C0C0C0"
             bg = "#EBEBEB"
-            fg = "#666666"
+            fg = "#636363"
 
     # MODO OSCURO (DARK)
     [params.style.dark]
-        ac = "#4A5D4A"        # Acento
-        bg = "#1C1E1B"        # Tu fondo oscuro personalizado
-        fg = "#D1D7D1"        # Texto
+        ac = "#3E4A39"        # Acento
+        bg = "#1A1C19"        # Tu fondo oscuro personalizado
+        fg = "#CBD5C0"        # Texto
         mid = "gray"
 
         [params.style.dark.more]
-            ac = "#007AFF"
+            ac = "#00F0FF"
             bg = "#000"
             fg = "#fff"
 
         [params.style.dark.less]
-            ac = "#3D3D3D"
-            bg = "#2B2B2B"
-            fg = "#888888"
+            ac = "#3F3F3F"
+            bg = "#2D2D2D"
+            fg = "#7A7A7A"
    ## Author information
     [params.author]
         ## site author's name
