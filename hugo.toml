@@ -157,9 +157,9 @@ enableRobotsTXT = true
             fg = "#000"
         
         [params.style.light.less]
-            ac = "#B3A7A7"
-            bg = "#D9D2D2"
-            fg = "#8C8282"
+            ac = "#D1B9B9"
+            bg = "#EBEBE6"
+            fg = "#A88E8E"
 
     # MODO OSCURO (DARK)
     [params.style.dark]
@@ -174,9 +174,9 @@ enableRobotsTXT = true
             fg = "#fff"
 
         [params.style.dark.less]
-            ac = "#5C667A"
-            bg = "#3A414D"
-            fg = "#89919E"
+            ac = "#454F57"
+            bg = "#2E3238"
+            fg = "#7D8D96"
    ## Author information
     [params.author]
         ## site author's name
@@ -222,6 +222,8 @@ enableRobotsTXT = true
         flowlines = true
         ## Limit number of flowlines
         flowlinesLimit = 21
+        flowlinesOpacity = 0.15
+        flowlinesColor = "#50BFE6" # Aquí pones el cian de tu Dark Default
 
     ## Home page display settings
     [params.home]
