@@ -6,3 +6,25 @@
 #list-tags {
     display: none !important;
 }
+/* 1. Reduce el margen superior del contenedor principal en la Home */
+main#home {
+    margin-top: 0.5rem !important;
+}
+
+/* 2. Elimina el margen superior de la primera entrada del listado */
+.feed-item:first-of-type {
+    margin-top: 0 !important;
+}
+
+/* 3. Ajusta el margen del título (h1) dentro de las entradas 
+   (Por defecto el tema les pone un margen muy amplio de 3.14rem) */
+.feed-item h1 {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+/* 4. Reduce el espacio del encabezado de la sección de posts si está vacío */
+main > header.pagewidth {
+    margin-top: 0 !important;
+    height: auto !important;
+}
