@@ -2,3 +2,12 @@
     margin: 0.5rem 0 !important;
     padding: 0.2rem 1rem !important;
 }
+/* Reducir margen superior */
+main#home {
+    margin-top: 0.5rem !important;
+}
+
+/* Ocultar etiquetas */
+#list-tags {
+    display: none !important;
+}
