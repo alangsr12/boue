@@ -6,14 +6,28 @@
     font-size: calc(var(--fontScale) * 8.5pt); 
     --hl: #fbff00; /* Un amarillo brillante o tu color preferido */
 }
+/* Ocultar barra de desplazamiento en Chrome, Safari y Edge */
+*::-webkit-scrollbar {
+    display: none !important;
+}
+
+/* Ocultar barra de desplazamiento en Firefox */
+* {
+    scrollbar-width: none !important;
+}
+
+/* Ocultar barra de desplazamiento en IE y Edge antiguo */
+* {
+    -ms-overflow-style: none !important;
+}
 /* Agranda el ancho de la columna de slide */
 body>aside.has-crsl {
     width: 50vw !important; /* El !important es clave aquí */
 }
 /* Ajusta la proporción: 50% para imagen, 50% para texto dentro del slide */
-.slide__cover {
-    flex: 1 1 50% !important;
-}
+/*.slide__cover {
+/*    flex: 1 1 50% !important;
+/*}
 /* ELIMINAR ESPACIO DEL HERO OCULTO (Captura 2) */
 /* display: none evita que el navegador reserve el espacio */
 .hero, .hero__content {
