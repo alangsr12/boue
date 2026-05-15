@@ -1,5 +1,5 @@
 ---
-type: 'slide'
+type: 'hidden'
 title: 'Hugo Release News
 draft: true
 params:

@@ -1,5 +1,5 @@
 ---
-type: 'slide'
+type: 'hidden'
 title: 'Pin'
 draft: true
 params:
