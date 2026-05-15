@@ -6,7 +6,14 @@
 main#home {
     margin-top: 0.5rem !important;
 }
-
+/* Elimina el espacio reservado por el Hero si está vacío o no se desea ver */
+.hero__content, 
+.hero {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 /* Ocultar etiquetas */
 #list-tags {
     display: none !important;
