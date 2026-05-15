@@ -143,14 +143,6 @@ enableRobotsTXT = true
     center = false
    # --- CONFIGURACIÓN DE ESTILOS Y COLORES ---
 [params.style]
-
-  # Ajuste de escala para obtener 8pt (Base 10.5pt * 0.76 ≈ 8pt)
-    fontScale = 0.76
-  
-    # Forzar ancho completo eliminando las franjas laterales
-    maxWidth = "100%"
-     void = "0rem"
-
     # MODO CLARO (LIGHT)
     [params.style.light]
         ac = "#34343A"        # Acento
