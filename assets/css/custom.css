@@ -60,13 +60,3 @@ hr.ldots::after {
 #list-tags {
     display: none !important;
 }
-
-/* Agranda el ancho de la columna lateral de los slides */
-body>aside.has-crsl {
-    width: 45vw !important; /* Cambia 38vw por un valor mayor, como 45vw o 50vw */
-}
-
-/* Opcional: Ajusta el contenido interno para que aproveche el nuevo espacio */
-.slide__cover {
-    flex: 1 1 50% !important; /* Ajusta la proporción entre imagen y texto dentro del slide */
-}
