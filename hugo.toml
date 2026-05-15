@@ -227,7 +227,7 @@ enableRobotsTXT = true
     ## Home page display settings
     [params.home]
 # Activa los cuadros de categorías arriba
-        disableListing = false
+        disableListing = true
         featuredListing = ['categories']
         numberOfCategories = 4
         # Activa la columna de la izquierda (Slides)
@@ -238,7 +238,7 @@ enableRobotsTXT = true
     ## Post display settings
     [params.posts]
         ## Enable text justification
-        justifying = false
+        justifying = true
         ## Disable paragraph indentation
         noIndent = false
         ## Use sans-serif fonts as default
