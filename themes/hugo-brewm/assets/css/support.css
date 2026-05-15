@@ -15,7 +15,7 @@
     /* closer compatibility to @font-face(size-adjust) */
 
     :root {
-        font-size: calc(var(--fontScale) * 9.5pt);
+        font-size: calc(var(--fontScale) * 7.5pt);
     }
 
     body {
