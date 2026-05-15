@@ -18,3 +18,15 @@ main#home {
 #list-tags {
     display: none !important;
 }
+/* Ajuste del contenedor principal de posts */
+#main-article, 
+#list-posts {
+    margin-top: 0 !important; /* Quita el margen de 1 pulgada por defecto */
+    padding-top: 1rem !important; /* Alineación visual con el menú lateral */
+}
+
+/* Sincronización del cuerpo con el encabezado */
+:root {
+    --vhead: 3.5rem; /* Ajusta la altura del header para que sea más compacta */
+    font-size: calc(var(--fontScale) * 9pt); /* Tu preferencia de fuente menor [cite: 46] */
+}
