@@ -1,8 +1,9 @@
 ---
 title: "Post"
 translationKey: post
+type: "fullscreen"
 sitemap:
-    changeFreq: "always"
+    changeFreq: "weekly"
 ---
 
 This section demonstrates a list view layout.
