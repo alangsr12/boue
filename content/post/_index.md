@@ -1,6 +1,7 @@
 ---
 title: "Post"
 translationKey: post
+type: "fullscreen"
 sitemap:
     changeFreq: "weekly"
 ---
