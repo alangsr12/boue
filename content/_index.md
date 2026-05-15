@@ -1,15 +1,33 @@
 ---
-cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg'
-keepAspectRatio: true
+# --- SECCIÓN DE CONFIGURACIÓN (Front Matter) ---
+# Para que una imagen no se vea, debe estar comentada con el símbolo '#' al inicio de la línea.
+
+# cover: Define la imagen principal que aparece en la parte superior (Hero).
+# cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/22.svg'
+
+# keepAspectRatio: Si es true, mantiene la proporción original de la imagen. 
+# Si es false, la recorta para ajustarla al ancho.
+# keepAspectRatio: true
+
+# title: Es el título que aparecería en la pestaña del navegador para la Home.
+# title: "Inicio" 
 ---
+
 <!-- 
+--- SECCIÓN DE CONTENIDO (Markdown) ---
+Todo lo que esté dentro de estas etiquetas de comentario de HTML no se mostrará en la web.
+Hugo solo activa la "Hero Section" si detecta que hay contenido aquí abajo.
+-->
+
+<!--
 ## Hero Section / Greeter
+Aquí puedes escribir un encabezado principal para dar la bienvenida.
 
-**This exampleSite is deployed on Github Pages within it's theme repository.**
+**Este es un texto en negrita.**
+Puedes usar esto para una breve introducción de quién eres o de qué trata el sitio.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Aquí iría el cuerpo del texto con párrafos largos.
+Lorem ipsum dolor sit amet...
 
-Integer nec posuere quam. Mauris et rhoncus lacus. Pellentesque non sem cursus, interdum nunc ut, efficitur magna. Maecenas consectetur ornare enim, nec tempus tellus vestibulum in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum venenatis ex non auctor malesuada. Curabitur semper elit sit amet orci facilisis fermentum. Nullam consectetur risus eget leo rhoncus egestas. Suspendisse at diam congue, venenatis augue et, ornare lectus. Curabitur ac lorem ullamcorper, consequat justo at, scelerisque lacus. Vivamus ac erat mauris. Nullam ut nibh tincidunt, placerat magna nec, fermentum tortor. Fusce ut orci sed neque sagittis rhoncus. Morbi eleifend, mauris sit amet dignissim dignissim, mauris nisi tempus orci, a congue elit ex quis ex.
-
---- Lorem Ipsum
+--- Este es un pie de firma o cita.
 -->
