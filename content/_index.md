@@ -10,7 +10,7 @@
 # keepAspectRatio: true
 
 # title: Es el título que aparecería en la pestaña del navegador para la Home.
-# title: "Inicio" 
+title: "Inicio" 
 ---
 
 <!-- 
