@@ -22,7 +22,7 @@
 }
 /* Agranda el ancho de la columna de slide */
 body>aside.has-crsl {
-    width: 50vw !important; /* El !important es clave aquí */
+    width: 48vw !important; /* El !important es clave aquí */
 }
 /* Ajusta la proporción: 50% para imagen, 50% para texto dentro del slide */
 /*.slide__cover {
