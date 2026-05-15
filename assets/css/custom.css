@@ -1,10 +1,10 @@
 .feed-item {
-    margin: 0.5rem 0 !important;
+    margin: 0.1rem 0 !important;
     padding: 0.2rem 1rem !important;
 }
 /* Reducir margen superior */
 main#home {
-    margin-top: 0.5rem !important;
+    margin-top: 0 !important;
 }
 /* Elimina el espacio reservado por el Hero si está vacío o no se desea ver */
 .hero__content, 
@@ -22,7 +22,7 @@ main#home {
 #main-article, 
 #list-posts {
     margin-top: 0 !important; /* Quita el margen de 1 pulgada por defecto */
-    padding-top: 1rem !important; /* Alineación visual con el menú lateral */
+    padding-top: 0 !important; /* Alineación visual con el menú lateral */
 }
 
 /* Sincronización del cuerpo con el encabezado */
