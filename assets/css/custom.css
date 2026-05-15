@@ -1,43 +1,58 @@
+/* 1. AJUSTES DINÁMICOS Y TAMAÑO DE FUENTE BASE */
+:root {
+    /* Altura del header más compacta para subir el contenido */
+    --vhead: 3.8rem; 
+    /* Tu tamaño de fuente reducido por defecto */
+    font-size: calc(var(--fontScale) * 9pt); 
+}
+
+/* 2. ELIMINAR ESPACIO DEL HERO OCULTO (Captura 2) */
+/* display: none evita que el navegador reserve el espacio */
+.hero, .hero__content {
+    display: none !important;
+}
+
+/* 3. COMPACTAR LISTA DE ENTRADAS (Captura 1 y 3) */
+/* El tema usa 86% de ancho por defecto, lo subimos al 100% para quitar "aire" */
 .feed-item {
-    margin: 0rem 0 !important;
-    padding: 0.1rem 0.1rem !important;
+    width: 100% !important;
+    margin: 0 !important; /* Elimina el margen basado en la proporción áurea */
+    padding: 0.2rem 0 !important; /* Espacio mínimo interno entre posts */
 }
-/* Reducir margen superior */
-main#home {
-    margin-top: 0 !important;
-}
-/* Elimina el espacio reservado por el Hero si está vacío o no se desea ver */
-.hero__content, 
-.hero {
-    display: none !important;
-    height: 0 !important;
+
+/* Reducir espacio en los títulos de cada post */
+.feed-item h1 {
     margin: 0 !important;
-    padding: 0 !important;
+    line-height: 1.1 !important;
 }
-/* Ocultar etiquetas */
-#list-tags {
-    display: none !important;
+
+/* Compactar la zona de metadatos (fecha/categorías) */
+.feed-item hgroup {
+    margin-bottom: 0 !important;
 }
-/* Ajuste del contenedor principal de posts */
+
+/* 4. REALINEACIÓN CON LA COLUMNA IZQUIERDA */
+/* Eliminamos el margen de 1 pulgada que el tema pone al artículo principal */
 #main-article, 
 #list-posts {
-    margin-top: 0 !important; /* Quita el margen de 1 pulgada por defecto */
-    padding-top: 0 !important; /* Alineación visual con el menú lateral */
+    margin-top: 0 !important;
+    padding-top: 0.5rem !important; /* Ajuste fino para alinear con el logo */
 }
 
-/* Sincronización del cuerpo con el encabezado */
-:root {
-    --vhead: 3.5rem; /* Ajusta la altura del header para que sea más compacta */
-    font-size: calc(var(--fontScale) * 9pt); /* Tu preferencia de fuente menor [cite: 46] */
-}
-/* Transforma los puntos en una línea sólida y gris */
+/* 5. AJUSTE DE LA LÍNEA SEPARADORA (PUNTOS) */
+/* Reducimos el margen de la línea para que los posts estén más pegados */
 hr.ldots {
-    border-top: 1pt solid var(--g18s) !important; /* Usa el color de borde del tema */
+    border-top: 1pt solid var(--g18s) !important;
     height: 0 !important;
-    margin: var(--medskip) 0 !important;
+    margin: 0.5rem 0 !important; /* Valor menor al var(--medskip) original */
 }
 
-/* Elimina el carácter de puntos suspensivos */
+/* Mantenemos tu ajuste para ocultar los puntos suspensivos */
 hr.ldots::after {
     content: none !important;
+}
+
+/* 6. OCULTAR ELEMENTOS ADICIONALES */
+#list-tags {
+    display: none !important;
 }
