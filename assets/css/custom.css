@@ -11,7 +11,10 @@
 .hero, .hero__content {
     display: none !important;
 }
-
+/* Oculta el encabezado de la sección de posts en la página principal */
+#list-posts .section-title {
+    display: none !important;
+}
 /* 3. COMPACTAR LISTA DE ENTRADAS (Captura 1 y 3) */
 /* El tema usa 86% de ancho por defecto, lo subimos al 100% para quitar "aire" */
 .feed-item {
