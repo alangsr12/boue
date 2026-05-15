@@ -3,7 +3,7 @@
     /* Altura del header más compacta para subir el contenido */
     --vhead: 3.8rem; 
     /* Tu tamaño de fuente reducido por defecto */
-    font-size: calc(var(--fontScale) * 7pt); 
+    font-size: calc(var(--fontScale) * 8pt); 
     --hl: #fbff00; /* Un amarillo brillante o tu color preferido */
 }
 
