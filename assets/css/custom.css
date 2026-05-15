@@ -10,7 +10,11 @@
 body>aside.has-crsl {
     width: 50vw !important; /* El !important es clave aquí */
 }
-/* 2. ELIMINAR ESPACIO DEL HERO OCULTO (Captura 2) */
+/* Ajusta la proporción: 50% para imagen, 50% para texto dentro del slide */
+.slide__cover {
+    flex: 1 1 50% !important;
+}
+/* ELIMINAR ESPACIO DEL HERO OCULTO (Captura 2) */
 /* display: none evita que el navegador reserve el espacio */
 .hero, .hero__content {
     display: none !important;
