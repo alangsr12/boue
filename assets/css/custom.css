@@ -2,3 +2,7 @@
     margin: 0.5rem 0 !important;
     padding: 0.2rem 1rem !important;
 }
+/* Oculta la sección de etiquetas (hashtags) en la página principal */
+#list-tags {
+    display: none !important;
+}
