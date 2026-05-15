@@ -1,6 +1,7 @@
 ---
 type: 'slide'
-title: 'Hugo Release News'
+title: 'Hugo Release News
+draft: true
 params:
     headless: true
     alias: 'https://github.com/foxihd/hugo-brewm'
