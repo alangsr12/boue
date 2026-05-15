@@ -6,7 +6,10 @@
     font-size: calc(var(--fontScale) * 8.5pt); 
     --hl: #fbff00; /* Un amarillo brillante o tu color preferido */
 }
-
+/* Agranda el ancho de la columna de slide */
+body>aside.has-crsl {
+    width: 50vw !important; /* El !important es clave aquí */
+}
 /* 2. ELIMINAR ESPACIO DEL HERO OCULTO (Captura 2) */
 /* display: none evita que el navegador reserve el espacio */
 .hero, .hero__content {
