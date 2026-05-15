@@ -30,3 +30,14 @@ main#home {
     --vhead: 3.5rem; /* Ajusta la altura del header para que sea más compacta */
     font-size: calc(var(--fontScale) * 9pt); /* Tu preferencia de fuente menor [cite: 46] */
 }
+/* Transforma los puntos en una línea sólida y gris */
+hr.ldots {
+    border-top: 1pt solid var(--g18s) !important; /* Usa el color de borde del tema */
+    height: 0 !important;
+    margin: var(--medskip) 0 !important;
+}
+
+/* Elimina el carácter de puntos suspensivos */
+hr.ldots::after {
+    content: none !important;
+}
