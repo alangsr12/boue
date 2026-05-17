@@ -81,3 +81,31 @@ hr.ldots::after {
 #list-tags {
     display: none !important;
 }
+/* Contenedor global de la lista del menú */
+header menu, 
+.l1 {
+    display: flex !important;
+    gap: 0.8rem !important; /* Reduce la separación entre elementos del menú */
+    align-items: center !important;
+}
+
+/* Enlaces individuales del menú (Inicio, Posts, IG, Email, CV) */
+header menu a, 
+header menu button {
+    font-family: var(--tt), monospace !important; /* Fuerza la tipografía teletype/código del tema */
+    font-size: var(--scriptsize) !important; /* Hace las letras pequeñas y delicadas */
+    color: var(--mid) !important; /* Color gris estándar discreto */
+    text-transform: none !important; /* Evita que se transformen a mayúsculas forzadas */
+    letter-spacing: normal !important;
+    padding: 0.2rem 0.5rem !important;
+    border-bottom: 2pt solid transparent !important;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Efecto al pasar el cursor (Hover) */
+header menu a:hover, 
+header menu a:focus {
+    color: var(--fg) !important; /* Cambia al color activo del tema */
+    border-bottom-color: var(--ac) !important; /* Añade la sutil línea inferior de la referencia */
+    text-decoration: none !important;
+}
