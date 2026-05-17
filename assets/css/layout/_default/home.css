@@ -1,15 +1,13 @@
-/* ==========================================================================
-   ESTILO ESTRUCTURAL DE LA HOME (PROPORCIÓN ASIMÉTRICA + MÓVIL CUADRADO)
-   ========================================================================== */
+/* this style is used inline in list.html */
 
 body {
     margin: auto !important;
-    max-width: 2560px !important; /* Estabilizador de pantalla ancha del autor */
+    max-width: 2560px !important;
     overscroll-behavior: contain;
 }
 
 body::-webkit-scrollbar {
-    display: none !important; /* Oculta la barra de scroll nativa */
+    display: none !important;
 }
 
 body > footer.pagewidth,
@@ -17,21 +15,29 @@ body > header.pagewidth {
     padding: 0 calc(1.5rem + 1ex);
 }
 
-/* --- CONFIGURACIÓN PARA ESCRITORIO (PC) --- */
 body > aside.has-crsl {
     position: sticky;
     position: -webkit-sticky;
     left: 0;
     float: left;
+    /* border: var(--border);
+    border-radius: 1ex; */
     padding: 1rem;
-    width: 38vw; /* Columna izquierda fija para ilustraciones/carrusel */
+    width: 38vw;
     height: var(--vbody);
 }
 
 body > main#home {
     height: var(--vbody);
     min-height: unset;
-    overflow-y: auto; /* Scroll independiente en la columna derecha de posts */
+    overflow-y: auto;
+}
+
+body > main#home > aside#list-tags {
+    top: 0;
+    right: 0;
+    margin: 1rem auto;
+    width: calc(100% - var(--golden-ratio));
 }
 
 #home #top {
@@ -40,6 +46,7 @@ body > main#home {
 
 #home #list-posts {
     padding: 1rem;
+    /* max-width: var(--max-width); */
 }
 
 div[role="feed"] {
@@ -56,119 +63,81 @@ hr.ldots {
     padding: 0;
 }
 
-#grain,
-a.section-title::after,
-body > main#home > aside#list-tags {
-    display: none !important; /* Mantener limpio de etiquetas según tus pasos previos */
+#i18n-menu > .on-plank,
+#more-menu > .on-plank,
+#duckduckgo,
+.pagefind-ui {
+    margin-right: 1rem;
 }
 
-/* ==========================================================================
-   REESCRITURA RESPONSIVE: FORMATEO MÓVIL (PANTALLAS MENORES A 960PX)
-   ========================================================================== */
+#has-search-fallback.pagewidth {
+    padding-right: 1rem;
+}
+
+#grain,
+a.section-title::after {
+    display: none;
+}
 
 @media (max-width: 960px) {
-    /* 1. Resetear el flujo elástico del cuerpo */
-    body {
-        display: flex !important;
-        flex-direction: column !important;
-        height: auto !important;
-    }
-
-    /* 2. Forzar el contenedor del Aside a ser un bloque cuadrado 1:1 */
     body > aside.has-crsl {
-        position: relative !important;
-        float: none !important; /* Desactiva el flotado lateral de PC */
-        width: 100vw !important; /* Ocupa todo el ancho del celular */
-        height: 100vw !important; /* Alto idéntico al ancho para forzar el encuadre cuadrado */
-        max-height: 420px !important; /* Tope de seguridad para evitar desbordes */
-        min-height: 300px !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: hidden !important;
-        border-bottom: var(--border) !important;
+        float: unset;
+        padding: 0;
+        width: unset;
     }
 
-    /* Ajustar las subcapas del carrusel interno para que llenen la caja */
-    body > aside.has-crsl .crsl,
-    body > aside.has-crsl .slide {
-        width: 100% !important;
-        height: 100% !important;
-        position: relative !important;
-        overflow: hidden !important;
-        display: block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    /* 3. La Ilustración Ondulada como fondo de la tarjeta cuadrada */
-    body > aside.has-crsl .slide__cover {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        z-index: 1 !important;
-    }
-
-    body > aside.has-crsl .slide__cover img {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        padding: 0 !important; /* Removemos el margen interno que le ponía el autor */
-        object-fit: cover !important; /* Recorta y encuadra las curvas onduladas de fondo */
-        border-radius: 0 !important;
-        opacity: 0.38 !important; /* Atenúa el vector para asegurar el contraste de las letras */
-    }
-
-    /* 4. SUPERPOSICIÓN: El texto flota sobre la imagen (Mismo comportamiento del autor) */
-    body > aside.has-crsl .slide__content {
-        position: absolute !important;
-        bottom: 0 !important; /* Lo ancla a la base del cuadrado */
-        left: 0 !important;
-        width: 100% !important;
-        height: auto !important;
-        max-height: 75% !important; /* Evita que las letras tapen por completo el arte */
-        z-index: 2 !important; /* Pasa al frente por encima de la foto */
-        padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
-        /* Degradado orgánico que nace del fondo del tema para suavizar las líneas */
-        background: linear-gradient(to top, var(--bg) 50%, transparent 100%) !important;
-        overflow-y: auto !important; /* Si tu bienvenida es extensa, añade scroll interno */
-    }
-
-    /* Ajuste tipográfico fino sobre el vector texturizado */
-    body > aside.has-crsl .slide__content h1.section-title {
-        font-size: var(--Large) !important;
-        margin: 0 0 0.5rem 0 !important;
-        color: var(--fg) !important;
-    }
-
-    body > aside.has-crsl .slide__content p {
-        font-size: var(--small) !important;
-        line-height: 1.45 !important;
-        color: var(--off) !important;
-        margin: 0 !important;
-        text-align: left !important;
-    }
-
-    /* 5. La columna derecha de Posts arranca limpia abajo con scroll sin fin */
     body > main#home {
-        width: 100vw !important;
-        height: auto !important;
-        margin-top: 0 !important; /* Elimina la compensación de margen antigua */
-        padding: 1rem var(--void) !important;
-        overflow-y: visible !important;
+        height: unset;
+        overflow-y: unset;
     }
 
-    #home #list-posts,
-    div[role="feed"],
-    .feed-item {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+    aside + main#home {
+        margin-top: var(--vhead);
+    }
+
+    body > main#home > aside#list-tags {
+        top: var(--vhead);
+    }
+
+}
+
+@media (max-width: 640px) {
+
+    body > main#home > aside#list-tags,
+    #home #list-posts {
+        margin: var(--bigskip) auto;
+        padding: 0 var(--void);
+        width: var(--golden-ratio);
+    }
+
+    div[role="feed"] {
+        padding: 0;
+    }
+
+    .form.on-plank,
+    .pagefind-ui {
+        margin-right: 1ex;
+    }
+
+}
+
+/*  If no flowlines, 1421px is breaking point when right panel (main#home) is equal to --max-width */
+
+/* 
+
+#home #list-posts {
+    max-width: var(--max-width);
+}
+
+#list-tags nav {
+    max-width: 36rem;
+}
+
+@media (min-width: 1421px) {
+    body > main#home > aside#list-tags {
+        width: calc(100% - 36rem);
+        padding: 0 var(--bigskip);
     }
 }
+
+*/
