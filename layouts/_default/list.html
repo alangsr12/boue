@@ -1,5 +1,5 @@
 {{- define "head" -}}
-    {{ "<!-- list.html [head] -->" | safeHTML }}
+    {{ "" | safeHTML }}
     {{- $paginator := partial "paginator.html" . }}
     {{- $enableSlide := not site.Params.home.disableSlide }}
     {{- $slides := where .Site.RegularPages "Type" "slide" }}
@@ -144,9 +144,7 @@
                 color: var(--fg);
             }
 
-            /* ==========================================================================
-               CORRECCIÓN QUIRÚRGICA PARA MÓVILES (ENTORNO CUADRADO + TEXTO SUPERPUESTO)
-               ========================================================================== */
+            /* --- CONTROL DE DISPOSICIÓN MÓVIL (CUADRADO PERFECTO RESPONSIVE) --- */
             @media (max-width: 960px) {
                 body {
                     display: flex !important;
@@ -158,7 +156,7 @@
                 aside .crsl,
                 aside .slide {
                     width: 100vw !important;
-                    height: 100vw !important; /* Cuadrado perfecto 1:1 basado en la pantalla */
+                    height: 100vw !important; 
                     max-height: 420px !important;
                     min-height: 300px !important;
                     position: relative !important;
@@ -202,7 +200,7 @@
                     padding-right: 2ex;
                 }
                 
-                /* FORZAR LA APARICIÓN DE LA FOTO EN EL FONDO */
+                /* FORZAR LA IMAGEN AL FONDO DE LA TARJETA CUADRADA */
                 .slide__cover {
                     position: absolute !important;
                     top: 0 !important;
@@ -219,23 +217,22 @@
                     left: 0 !important;
                     width: 100% !important;
                     height: 100% !important;
-                    padding: 0 !important; /* Limpiamos el padding de 1rem del autor */
-                    object-fit: cover !important; /* Hace que cubra el contenedor cuadrado */
+                    padding: 0 !important; 
+                    object-fit: cover !important; 
                     border-radius: 0 !important;
-                    opacity: 0.40 !important; /* Opacidad sutil para dar legibilidad */
+                    opacity: 0.40 !important; 
                 }
                 
-                /* FORZAR QUE EL TEXTO FLOTE POR ENCIMA */
+                /* FORZAR QUE EL TEXTO DE PRESENTACIÓN FLOTE ARRIBA EN MÓVILES */
                 .slide__content {
                     position: absolute !important;
-                    bottom: 0 !important; /* Anclado al suelo del cuadrado */
+                    bottom: 0 !important; 
                     left: 0 !important;
                     width: 100% !important;
                     height: auto !important;
                     max-height: 75% !important;
-                    z-index: 2 !important; /* Pasa al frente del vector */
+                    z-index: 2 !important; 
                     padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
-                    /* Degradado sutil que nace del fondo del tema */
                     background: linear-gradient(to top, var(--bg) 50%, transparent 100%) !important;
                     overflow-y: auto !important;
                 }
@@ -244,12 +241,24 @@
                     z-index: 2 !important;
                     margin: 0 !important;
                     border-radius: 0 !important;
-                    background: none !important; /* Eliminamos la caja gris sólida */
+                    background: none !important; 
                     width: 100% !important;
                 }
             }
-                #home #list-posts{max-width:var(--max-width)}#list-tags nav{max-width:36rem}@media (min-width:1421px){body>main#home>aside#list-tags{width:calc(100% - 36rem);padding:0 var(--bigskip)}}
-            {{- end }}
+
+            /* --- CONTROL DE PREFERENCIAS Y PARÁMETROS DE ACCESIBILIDAD --- */
+            @supports (backdrop-filter: blur(0)) {
+                .screening {
+                    background-color: #80808008;
+                }
+            }
+
+            /* CORRECCIÓN: Usamos "@supports" con "s" para que el validador no falle */
+            @supports not (accent-color: blue) {
+                :root {
+                    font-size: calc(var(--fontScale) * 9.5pt);
+                }
+            }
         </style>
     {{- end }}
 {{- end -}}
@@ -317,9 +326,6 @@
             {{ template "no-content" . }}
         </div>
     {{- else }}
-        {{- /*
-
-            main aside */}}
         {{- if and site.Taxonomies.tags $firstPage (ne .Kind "term") }}
             {{- if .IsHome }}
                 <aside id="list-tags">
@@ -361,80 +367,70 @@
                 {{- end }}
             {{- end }}
         {{- end }}
-        {{/*
-
-            feed */}}
-        {{- if ne .Kind "taxonomy" }}
-            <section id="list-posts" class="pagewidth" {{ if not .IsHome }} aria-labelledby="list-post-heading"{{ end }}>
-                <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
-                    <strong id="list-post-heading">
-                        {{- if .IsHome }}
-                            {{- if $firstPage }}
-                                {{ i18n "recent" $paginator.NumberOfElements }}
-                            {{- else }}
-                                {{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }}
-                                {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
-                            {{- end }}
+        
+        <section id="list-posts" class="pagewidth" {{ if not .IsHome }} aria-labelledby="list-post-heading"{{ end }}>
+            <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
+                <strong id="list-post-heading">
+                    {{- if .IsHome }}
+                        {{- if $firstPage }}
+                            {{ i18n "recent" $paginator.NumberOfElements }}
                         {{- else }}
-                            {{- $title := .LinkTitle }}
-                            {{- if eq (lower $title) (lower (i18n "posts" 1)) }}
-                                {{- i18n "allPosts" }}
-                                {{- if not $firstPage }}
-                                    {{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
-                                {{- end }}
-                            {{- else if eq (lower $title) (lower (i18n "articles" 1)) }}
-                                {{- i18n "articles" }}
-                            {{- else if eq .Data.Singular "author" }}
-                                {{- i18n "postsBy" }}: {{ $title }}
-                            {{- else }}
-                                {{- i18n "postsOn" }}: <span class="{{ .Data.Singular }}">{{ $title }}</span>
-                            {{- end }}
+                            {{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }}
+                            {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
                         {{- end }}
-                    </strong>
-                    <hr class="hide"/>
-                </header>
-                {{- /*
-
-                    list post */}}
-                {{- if $liViewCondition }}
-                    {{ template "li" . }}
-                {{- else }}
-                    <div role="feed" aria-busy="false" aria-labelledby="list-post-heading">
-                    {{- range $index, $page := $paginator.Pages }}
-                        {{- $counter := add $index 1 }}
-                        {{- $author := default site.Params.Author.name .Params.author }}
-                        {{- $authors := or (.GetTerms "authors") (.GetTerms "author") }}
-                        {{- $categories := .GetTerms "categories" }}
-                        {{- $stage := .GetTerms "stage" }}
-                        {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
-                        {{- $hasCover := partial "page/cover.html" (dict "page" .) }}
-                        {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
-                        {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
-                        {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage "PublishDate" .PublishDate) }}
+                    {{- else }}
+                        {{- $title := .LinkTitle }}
+                        {{- if eq (lower $title) (lower (i18n "posts" 1)) }}
+                            {{- i18n "allPosts" }}
+                            {{- if not $firstPage }}
+                                {{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}
+                            {{- end }}
+                        {{- else if eq (lower $title) (lower (i18n "articles" 1)) }}
+                            {{- i18n "articles" }}
+                        {{- else if eq .Data.Singular "author" }}
+                            {{- i18n "postsBy" }}: {{ $title }}
+                        {{- else }}
+                            {{- i18n "postsOn" }}: <span class="{{ .Data.Singular }}">{{ $title }}</span>
+                        {{- end }}
                     {{- end }}
-                    </div>
-                    {{/*
-
-                        paginator navigation */}}
-                    {{- if or .Paginator.HasPrev .Paginator.HasNext }}
-                        <hr class="hide">
-                        {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
-                    {{- end }}
+                </strong>
+                <hr class="hide"/>
+            </header>
+            
+            {{- if $liViewCondition }}
+                {{ template "li" . }}
+            {{- else }}
+                <div role="feed" aria-busy="false" aria-labelledby="list-post-heading">
+                {{- range $index, $page := $paginator.Pages }}
+                    {{- $counter := add $index 1 }}
+                    {{- $author := default site.Params.Author.name .Params.author }}
+                    {{- $authors := or (.GetTerms "authors") (.GetTerms "author") }}
+                    {{- $categories := .GetTerms "categories" }}
+                    {{- $stage := .GetTerms "stage" }}
+                    {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
+                    {{- $hasCover := partial "page/cover.html" (dict "page" .) }}
+                    {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
+                    {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
+                    {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage "PublishDate" .PublishDate) }}
+                {{- range . }}
+                    {{- $counter := add $index 1 }}
+                    {{- $author := default site.Params.Author.name .Params.author }}
+                    {{- $authors := or (.GetTerms "authors") (.GetTerms "author") }}
+                    {{- $categories := .GetTerms "categories" }}
+                    {{- $stage := .GetTerms "stage" }}
+                    {{- $desc := or .Params.Subtitle .Params.Description .Description .Summary }}
+                    {{- $hasCover := partial "page/cover.html" (dict "page" .) }}
+                    {{- $alt := or .Params.Alt .Params.coverAlt .Params.imagesAlt }}
+                    {{- if $index }}<hr class="ldots" role="presentation" aria-hidden="true">{{- end }}
+                    {{ template "card" (dict "page" $page "paginator" $paginator "counter" $counter "desc" $desc "hasCover" $hasCover "alt" $alt "author" $author "authors" $authors "stage" $stage "PublishDate" .PublishDate) }}
                 {{- end }}
-            </section>
-        {{- else }}
-            {{- /*
-
-                taxonomy.html listing */}}
-            <section class="pagewidth">
-                {{- if eq .Data.Singular "tag" }}
-                    {{ template "taxonomy-listing" }}
-                {{- else }}
-                    <h1 id="{{ .Data.Plural }}">{{ i18n .Data.Plural }}</h1>
-                    {{ partial "taxonomies.html" (dict "taxonomy" .Data.Plural "class" "taxonomy" "cover" false "withPages" true ) }}
+                </div>
+                {{- if or .Paginator.HasPrev .Paginator.HasNext }}
+                    <hr class="hide">
+                    {{- partial "nav.html" (dict "navID" "pagination" "page" .) }}
                 {{- end }}
-            </section>
-        {{- end }}
+            {{- end }}
+        </section>
     {{- end }}
 {{- end -}}
 
