@@ -84,55 +84,85 @@ hr.ldots::after {
 /* ==========================================================================
    DISEÑO MÓVIL: ENTORNO ACUADRADO SUPERIOR + SCROLL SIN FIN (JARDÍN)
    ========================================================================== */
-
 @media (max-width: 960px) {
-    /* 1. Forzar que el cuerpo se comporte como un contenedor vertical limpio */
+    /* 1. Forzar comportamiento de flujo vertical en el cuerpo */
     body {
         display: flex !important;
         flex-direction: column !important;
         margin: 0 !important;
         padding: 0 !important;
+        height: auto !important;
     }
 
-    /* 2. Transformar la columna izquierda (Aside) en un bloque superior cuadrado */
+    /* 2. Transformar el Aside en una tarjeta de presentación fluida */
     body > aside.has-crsl {
         position: relative !important;
         float: none !important;
         width: 100vw !important;
-        /* Forzamos una proporción casi cuadrada (ej. 45% del alto de pantalla o 350px) */
-        height: 45vh !important; 
-        min-height: 300px !important;
-        max-height: 400px !important;
-        padding: 0 !important;
+        height: auto !important; /* Cambia de altura fija a dinámica para que quepa el texto */
+        min-height: unset !important;
+        max-height: unset !important;
+        padding: 1.5rem var(--void) !important; /* Añade aire en los bordes */
         margin: 0 !important;
-        background: var(--g18s) !important; /* Fondo gris sutil para enmarcar */
-        overflow: hidden !important;
+        background: var(--bg) !important; /* Mantiene el color base del jardín */
+        display: flex !important;
+        flex-direction: column !important; /* Apila foto y luego texto */
+        gap: 1rem !important;
+        border-bottom: var(--border) !important; /* Línea divisoria orgánica */
     }
 
-    /* Ajustar las imágenes o flowlines internas del Aside para que llenen el cuadrado */
-    body > aside.has-crsl img,
+    /* 3. Respetar la imagen en formato vertical/proporcional */
     body > aside.has-crsl .slide__cover {
+        display: block !important;
+        width: 100% !important;
+        height: 280px !important; /* Altura controlada para la ilustración en celular */
+        padding: 0 !important;
+        margin: 0 auto !important;
+    }
+
+    body > aside.has-crsl .slide__cover img {
         width: 100% !important;
         height: 100% !important;
-        object-fit: cover !important; /* Hace que la foto llene el cuadrado sin deformarse */
-        padding: 0 !important;
+        object-fit: contain !important; /* ¡CLAVE! Mantiene las líneas onduladas estilizadas sin recortarlas */
+        border-radius: 1ex !important;
     }
 
-    /* Ocultar textos largos del carrusel en móvil si rompen el formato cuadrado */
+    /* 4. REACTIVAR Y ESTILIZAR EL TEXTO DE BIENVENIDA DEL SLIDE */
     body > aside.has-crsl .slide__content {
-        display: none !important;
+        display: block !important; /* ¡Volvemos a mostrar el texto! */
+        width: 100% !important;
+        max-height: unset !important;
+        overflow-y: visible !important;
+        padding: 0 0.5rem !important; /* Pequeño margen interno para lectura */
+        margin: 0 !important;
     }
 
-    /* 3. Transformar la columna derecha (Main) en el scroll sin fin inferior */
+    /* Ajuste de fuentes del slide en el celular */
+    body > aside.has-crsl .slide__content h1.section-title {
+        font-size: var(--large) !important; /* Título un poco más compacto */
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        color: var(--fg) !important;
+    }
+
+    body > aside.has-crsl .slide__content p {
+        font-size: var(--small) !important;
+        line-height: 1.4 !important;
+        color: var(--off) !important;
+        max-width: 100% !important;
+        text-align: left !important;
+    }
+
+    /* 5. Ajustar la columna de posts (Main) para el scroll infinito abajo */
     body > main#home {
         width: 100vw !important;
-        height: auto !important; /* Permite el scroll infinito hacia abajo */
-        margin-top: 0 !important; /* Quitamos el salto que empujaba el tema */
-        padding: 1rem var(--void) !important; /* Mantenemos márgenes seguros del tema */
+        height: auto !important;
+        margin-top: 0 !important;
+        padding: 1rem var(--void) !important;
         overflow-y: visible !important;
     }
 
-    /* 4. Asegurar que las entradas ocupen el ancho total de la pantalla en móvil */
+    /* Garantizar que el feed de posts se adapte al ancho móvil */
     #home #list-posts,
     div[role="feed"],
     .feed-item {
