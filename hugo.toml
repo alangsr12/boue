@@ -162,9 +162,9 @@ enableRobotsTXT = true
 
     # MODO OSCURO (DARK)
     [params.style.dark]
-        ac = "#D5D8CC"        # Acento
+        ac = "#c6dd83"        # Acento
         bg = "#191919"        # Tu fondo oscuro personalizado
-        fg = "#3FBBE6"        # Texto
+        fg = "#DEDEDE"        # Texto
         mid = "gray"
 
         [params.style.dark.more]
