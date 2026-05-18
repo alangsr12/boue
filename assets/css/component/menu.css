@@ -1,10 +1,16 @@
+/* ==========================================================================
+   RESET DE TIPOGRAFÍA Y ESPACIOS DEL MENÚ (TEXTO PLANO)
+   Basado en el diseño estructural nativo de Hugo-brewm
+   ========================================================================== */
+
+/* 1. Estructura base de listas e inline */
 ul.delimiter,
 ul.breadcrumb,
 nav > ul,
 ul[role=presentation] {
     margin: 0;
     list-style: none;
-    font-size: inherit;
+    font-size: inherit; /* Hereda directamente el tamaño base del documento */
 }
 
 ul.delimiter,
@@ -17,8 +23,7 @@ nav > ul > li {
     padding: 0;
 }
 
-/* form dependency for search & share button  */
-
+/* Dependencia para botones de búsqueda y compartir */
 .form {
     flex-direction: row !important;
     align-items: center;
@@ -45,8 +50,7 @@ nav > ul > li {
     padding: 0;
 }
 
-/* container */
-
+/* 2. Contenedor principal del encabezado */
 body > header,
 body > header > nav {
     display: flex;
@@ -55,7 +59,7 @@ body > header > nav {
 
 #top-nav {
     margin-left: auto;
-    font-weight: bold;
+    font-weight: normal; /* Cambiado de 'bold' a 'normal' para texto plano */
 }
 
 #top-nav[open],
@@ -66,22 +70,20 @@ body > header > nav {
 #top-nav > nav {
     display: flex;
     justify-content: flex-end;
-    gap: 1ex;
+    gap: 1.5ex; /* Espacio reducido entre los elementos del menú horizontal */
 }
 
 #logo + #top-nav #main-menu,
 #logo + #top-nav #main-menu .l1 {
-    /* flush item to right-end when logotype on the left */
     justify-content: flex-end;
 }
 
 #main-menu .l1 {
     display: flex;
-    gap: 1ex;
+    gap: 1.5ex; /* Sincroniza el espacio reducido en la lista principal */
 }
 
-/* menu icon */
-
+/* Iconos del menú */
 #top-nav .icon {
     position: relative;
     top: -0.05em;
@@ -105,13 +107,11 @@ details[open] > summary > .menu-icon::before {
     color: var(--ac);
 }
 
-/* on 'hull' viewport */
-
+/* Comportamiento en viewport de tipo 'hull' */
 #i18n-menu,
 #more-menu,
 .on-hull,
 .screening {
-    /* 'hull' --vbody container */
     position: fixed;
     top: var(--vhead);
     left: 0;
@@ -120,7 +120,6 @@ details[open] > summary > .menu-icon::before {
 }
 
 .screening {
-    /* obscure main body  */
     --blur: blur(0.2vmin);
     --dim: brightness(0.96);
     z-index: -1;
@@ -129,8 +128,7 @@ details[open] > summary > .menu-icon::before {
             backdrop-filter: var(--blur) var(--dim);
 }
 
-/* item on 'deck' */
-
+/* Elementos en 'deck' */
 .on-deck,
 a#has-i18n {
     display: flex;
@@ -155,10 +153,8 @@ a#has-i18n {
     top: var(--vhead);
 }
 
-/* item on 'plank' */
-
+/* Elementos en 'plank' (submenús) */
 .on-plank {
-    /* add on-plank */
     display: flex;
     flex-direction: column;
     border: var(--border);
@@ -196,20 +192,22 @@ details[open] .on-plank,
 
 #i18n-menu > .on-plank,
 #more-menu > .on-plank {
-    /* .on-hull > .on-plank */
     margin: 1rem var(--void) 1rem auto;
     max-width: var(--max-width);
 }
 
-/* visible menu item */
-
+/* 3. Ajuste Quirúrgico de los Enlaces Visibles (Texto Plano) */
 #has-l10n a,
 #top-nav a,
 .anchor {
     display: flex;
-    padding: 1ex;
+    padding: 0.2ex 0.4ex; /* RECORTE DE MARGENES: Reducido drásticamente de 1ex para quitar el aire visual */
     width: 100%;
     color: var(--fg);
+    font-family: inherit !important;     /* FUENTE: Fuerza a heredar la tipografía limpia del documento */
+    text-transform: none !important;    /* TEXTO PLANO: Desactiva las mayúsculas automáticas (UPPERCASE) del tema */
+    letter-spacing: normal !important;  /* TEXTO PLANO: Quita la expansión de caracteres */
+    font-variant: normal !important;    /* TEXTO PLANO: Desactiva las Versalitas (small-caps) originales */
 }
 
 #top-nav a.has-desc {
@@ -224,7 +222,6 @@ summary.anchor .has-aria-label::after {
 
 .marginpar-ctrl + label::before,
 .anchor:after {
-    /* add indicator [v] */
     --tst: 200ms ease-out;
     position: relative;
     top: 0.23em;
@@ -233,7 +230,7 @@ summary.anchor .has-aria-label::after {
     margin-left: auto;
     background: linear-gradient(to top, transparent 49%, var(--g18) 51%);
     -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
     color: transparent;
     font: 8pt 'base-ui';
     content: '\e913';
@@ -252,7 +249,6 @@ summary.anchor .has-aria-label::after {
 
 .marginpar-ctrl:checked + label::before,
 details[open] > .anchor:after {
-    /* change indicator state [x] */
     --anm: blinking 3s step-end infinite;
     background: unset;
     top: 0;
@@ -260,14 +256,12 @@ details[open] > .anchor:after {
 }
 
 details[open] > .anchor.on-deck:after {
-    /* make opened <details> element more prominent */
     color: red;
 }
 
-/* bilingual */
-
+/* Idiomas bilingües */
 a#has-i18n {
-    align-items: end;
+    align-items: flex-end;
     width: auto;
     font-size: .9em;
     font-weight: 550;
@@ -278,19 +272,16 @@ a#has-i18n > .alt,
 a#has-i18n:hover > .act,
 a#has-i18n:focus > .act,
 a#has-i18n:active > .act {
-    /* active/current language */
     color: var(--g18);
 }
 
 a#has-i18n:hover > .alt,
 a#has-i18n:focus > .alt,
 a#has-i18n:active > .alt {
-    /* alternate language */
     color: var(--fg);
 }
 
-/* multilingual */
-
+/* Multilingüismo */
 #has-l10n {
     display: inline-block;
     font-size: 1.2rem;
@@ -359,10 +350,10 @@ a#has-i18n:active > .alt {
     font-size: var(--large);
 }
 
+/* ==========================================================================
+   COMPORTAMIENTO RESPONSIVE MÓVIL (Se mantiene intacto para no romper el colapso)
+   ========================================================================== */
 @media (max-width: 640px) {
-
-    /* container behaviour */
-
     #top-nav * {
         outline: none !important;
     }
@@ -385,10 +376,8 @@ a#has-i18n:active > .alt {
         flex-direction: column;
     }
 
-    /* swap menu-icon */
-
     #top-nav > summary,
-    #top-nav[open] > summary  {
+    #top-nav[open] > summary {
         display: flex !important;
         margin-left: auto;
         width: 43pt;
@@ -409,16 +398,11 @@ a#has-i18n:active > .alt {
         font: inherit;
     }
 
-    /* swap screen element */
-
     #top-nav-screen.screening {
         display: block;
         background-color: var(--bg);
-        /* the nav screen overlap to vfoot since when javascript disabled the vfoot is visible */
         height: calc(100vh - var(--vhead));
     }
-
-    /* swap hull element */
 
     #top-nav > nav {
         position: fixed;
@@ -437,35 +421,16 @@ a#has-i18n:active > .alt {
     #more-menu,
     #has-search-fallback,
     #main-menu .on-plank {
-        /* also unset main menu plank */
         position: unset;
         width: unset;
         max-width: unset;
         height: unset;
     }
 
-    /* reorder hull item */
-
-    #has-search {
-        order: 1;
-    }
-
-    #has-main-menu {
-        flex: unset;
-        order: 2;
-    }
-
-    #has-more-menu {
-        order: 3;
-    }
-
-    #has-i18n,
-    #bi18n {
-        order: 4;
-        margin: auto 1ex 2rem;
-    }
-
-    /* redefine deck element */
+    #has-search { order: 1; }
+    #has-main-menu { flex: unset; order: 2; }
+    #has-more-menu { order: 3; }
+    #has-i18n, #bi18n { order: 4; margin: auto 1ex 2rem; }
 
     #top-nav > nav .on-deck {
         justify-content: unset;
@@ -476,8 +441,6 @@ a#has-i18n:active > .alt {
         padding: 1ex;
         gap: 1ex;
     }
-
-    /* swap plank element */
 
     .on-plank {
         border: unset;
@@ -496,7 +459,6 @@ a#has-i18n:active > .alt {
 
     #i18n-menu > .on-plank ,
     #more-menu > .on-plank {
-        /* .on-hull > .on-plank */
         margin: unset;
         padding: 0;
         width: 100%;
@@ -505,7 +467,6 @@ a#has-i18n:active > .alt {
     #has-main-menu,
     #has-more-menu,
     #has-search {
-        /* make as plank */
         margin: 1ex;
         padding: 1ex;
     }
@@ -524,8 +485,6 @@ a#has-i18n:active > .alt {
         color: var(--g18);
     }
 
-    /* bilingual */
-
     a#has-i18n {
         font-size: unset;
         align-items: center;
@@ -540,8 +499,6 @@ a#has-i18n:active > .alt {
         font: unset;
     }
 
-    /* multilingual */
-
     #i18n-menu {
         margin-top: 1ex;
     }
@@ -550,8 +507,6 @@ a#has-i18n:active > .alt {
     .languangeName {
         display: block !important;
     }
-
-    /* hide desktop element */
 
     a#has-i18n > .t,
     #top-nav > nav .screening,
@@ -563,5 +518,4 @@ a#has-i18n:active > .alt {
     .iso639 {
         display: none;
     }
-
 }
