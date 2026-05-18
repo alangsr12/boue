@@ -24,26 +24,36 @@
     {{ partial "head/css/inline.html" . -}}
     <!-- INICIO DE TÍTULOS ELÁSTICOS -->
    <style>
-    /* 1. Redefinimos la proporción áurea a 100% solo para la Home */
-    /* Esto libera automáticamente todos los bloques del sitio en esa página */
+    /* 1. Atacamos la variable raíz solo para la Home para que todo sea elástico */
     main#home {
         --golden-ratio: 100% !important;
+        --max-width: 100% !important;
     }
 
-    /* 2. Forzamos al contenedor del feed a estirarse por completo */
-    /* Según tu archivo list.css, estos son los selectores clave [4] */
-    #list-posts > div, 
-    .list-year > div,
-    .textwidth {
+    /* 2. Forzamos al contenedor del feed a ignorar cualquier restricción de ancho */
+    main#home #list-posts,
+    main#home #list-posts > div,
+    main#home .textwidth {
         width: 100% !important;
         max-width: 100% !important;
         margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
-    /* 3. Aseguramos que los enlaces de los posts usen todo el ancho elástico */
+    /* 3. Ajustamos los títulos y los bloques de días (según tu list.css) */
+    .feed-item, 
+    .list-year, 
+    .list-year > div, 
     .list-day a {
         width: 100% !important;
-        padding-left: 0 !important;
+        max-width: 100% !important;
+        display: block !important;
+    }
+
+    /* 4. Eliminamos el padding lateral que el tema añade por defecto (var--void) */
+    main#home #list-posts {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
 </style>
     <!-- FIN DE TÍTULOS ELÁSTICOS -->
