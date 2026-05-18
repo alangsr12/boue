@@ -24,26 +24,23 @@
     {{ partial "head/css/inline.html" . -}}
     <!-- INICIO DE TÍTULOS ELÁSTICOS -->
 <style>
-    /* 1. Forzamos la variable al 100% en el nivel más alto del contenido */
-    body > main#home {
-        --golden-ratio: 100% !important;
-        --max-width: 100% !important;
-    }
-
-    /* 2. Liberamos los contenedores que viste en list.css */
+    /* Atacamos exactamente el selector que encontraste en la página pública */
     #list-posts > div, 
-    .list-year > div,
     .textwidth {
-        width: 100% !important;
+        width: 100% !important; 
         max-width: 100% !important;
-        margin-left: 0 !important;
     }
 
-    /* 3. Aseguramos que el enlace del post no tenga márgenes restrictivos */
+    /* Liberamos también los elementos internos que viste en el list.css */
+    .list-year > div, 
     .list-day a {
         width: 100% !important;
-        padding-left: 0 !important;
-        margin-left: 0 !important;
+    }
+
+    /* Forzamos que la variable no actúe como freno en la Home */
+    main#home {
+        --golden-ratio: 100% !important;
+        --void: 0 !important;
     }
 </style>
     <!-- FIN DE TÍTULOS ELÁSTICOS -->
