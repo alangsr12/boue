@@ -1,31 +1,30 @@
-/* Formateo del Logo en Texto Plano */
+/* --- NUEVA ESTILIZACIÓN MINIMALISTA PARA EL LOGO BOÜE --- */
 #logo a, 
-.logotype {
-    font-family: var(--tt), monospace !important; /* Fuerza la tipografía de la web */
-    font-weight: 800 !important; /* Negrita intensa */
-    font-size: var(--normalsize) !important; /* Tamaño controlado, sutil como el resto */
-    text-transform: none !important; /* Evita que se fuerce a mayúsculas si no querés */
-    color: var(--fg) !important; /* Color principal */
-    letter-spacing: -0.02em !important;
+.logotype,
+.logo-text {
+    font-family: 'inter', var(--sf), sans-serif !important; /* Fuerza la fuente limpia del resto de la web */
+    font-weight: 700 !important; /* Negrita estándar para títulos */
+    font-size: var(--normalsize) !important; /* Tamaño chico y controlado, igual al resto */
+    text-transform: none !important; /* Respeta el formato BOÜE del título */
+    color: var(--fg) !important; /* Mantiene el color de texto de tu tema */
+    letter-spacing: 0.05em !important; /* Un poco de aire entre letras para que quede elegante */
     
-    /* EFECTO: Relieve fino de contorno que se mantiene nítido en tamaños chicos */
+    /* EFECTO NUEVO: Bajo relieve sutil (Hundido limpio en el fondo) */
     text-shadow: 
-        1px 1px 0px var(--bg), 
-        -1px -1px 0px var(--bg), 
-        1px -1px 0px var(--bg), 
-        -1px 1px 0px var(--bg),
-        0px 2px 4px rgba(255, 255, 255, 0.15) !important; /* Destello sutil inferior */
-        
-    transition: color 0.2s ease, text-shadow 0.2s ease !important;
+        -1px -1px 1px rgba(0, 0, 0, 0.7), 
+         1px  1px 1px rgba(255, 255, 255, 0.05) !important;
+         
+    transition: opacity 0.2s ease !important;
 }
 
-/* Efecto al pasar el cursor por encima (Hover) */
+/* Efecto al pasar el cursor (Hover) */
 #logo a:hover {
-    color: var(--ac) !important; /* Cambia al color de acento del jardín */
-    text-shadow: 0px 0px 8px var(--ac) !important; /* Genera un leve brillo de neón */
+    opacity: 0.7 !important; /* Simple y limpio: se atenúa un poco al pasar el cursor */
+    text-shadow: 
+        -1px -1px 1px rgba(0, 0, 0, 0.7), 
+         1px  1px 1px rgba(255, 255, 255, 0.05) !important; /* Mantiene el efecto */
     text-decoration: none !important;
 }
-
 /* 1. AJUSTES DINÁMICOS Y TAMAÑO DE FUENTE BASE */
 :root {
     /* Altura del header más compacta para subir el contenido */
