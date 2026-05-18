@@ -1,0 +1,50 @@
+/* ==========================================================================
+   PLANCHADO TIPOGRÁFICO NATIVO - SOBREESCRITURA DE VARIABLES HUGO-BREWM
+   ========================================================================== */
+
+:root {
+    /* --- FUENTE PARA TEXTO COMÚN Y NAVEGACIÓN (Sans-Serif Local Moderna) --- */
+    --sf: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+
+    /* --- FUENTE PARA TÍTULOS Y CABECERAS (Serif Local Elegante) --- */
+    --rm: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+/* ==========================================================================
+   FORZAR COMPORTAMIENTO ESTÉTICO EN ELEMENTOS CRÍTICOS
+   ========================================================================== */
+
+/* Títulos principales, secundarios y subtítulos del documento */
+h1, h2, h3, h4, 
+.section-title, 
+.slide__content h1.section-title,
+a.section-title {
+    font-family: var(--rm) !important;
+    font-variant: normal !important;   /* Desactiva las versalitas forzadas */
+    text-transform: none !important;   /* Mantiene mayúsculas/minúsculas normales */
+    font-weight: 600 !important;
+}
+
+/* Cuerpo de lectura, párrafos, listas, menús y metadatos */
+body, 
+p, 
+li, 
+#top-nav a, 
+#main-menu a, 
+.feed-item, 
+time, 
+#main-footer {
+    font-family: var(--sf) !important;
+}
+
+/* ==========================================================================
+   RESGUARDAR ACCESIBILIDAD E ICONOS (Permanecen intactos)
+   ========================================================================== */
+.icon, 
+.menu-icon::before, 
+#has-search>summary::before, 
+.anchor:after, 
+.marginpar-ctrl+label::before,
+.emoji {
+    font-family: base-ui, apple color emoji, segoe ui emoji, notocoloremoji, sans-serif !important;
+}
