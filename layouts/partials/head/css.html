@@ -164,23 +164,29 @@
             {{ .Content | safeCSS }}
         {{- end }}
 
-        /* Sobreescritura de dos familias sin romper accesibilidad */
+        /* Unificación estética Monospace */
         :root {
             --tt: 'Inconsolata', 'Courier New', monospace;
-            --sf: 'Arial', 'Inter', sans-serif;
         }
+
+        /* Texto común regular */
         body, p, span, li, a, time, .flowlines {
             font-family: var(--tt) !important;
         }
+
+        /* Títulos, menú y logo en la misma fuente pero negrita pesada */
         h1, h2, h3, h4, h5, h6,
         .section-title, 
         #logo #logotype__text,
         .menu-item a, .nav-link {
-            font-family: var(--sf) !important;
+            font-family: var(--tt) !important;
+            font-weight: 700 !important;
         }
+
         h2, h3, h4 {
             font-style: italic !important;
         }
+
         code, pre, pre>code, kbd {
             font-family: var(--tt) !important;
         }
