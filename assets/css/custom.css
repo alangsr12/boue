@@ -199,3 +199,37 @@ hr.ldots::after {
         padding-right: 0 !important;
     }
 }
+/* ==========================================================================
+   CONFIGURACIÓN DE FUENTES PRINCIPALES (TÍTULOS Y TEXTO)
+   No altera las fuentes de iconos (base-ui) ni de accesibilidad (OpenDyslexic)
+   ========================================================================== */
+
+:root {
+    /* Forzamos a Inter/Arial como la fuente Sans-Serif por defecto */
+    --sf: 'Inter', 'Arial', sans-serif;
+    
+    /* Forzamos a Inconsolata como la fuente Monospace por defecto */
+    --tt: 'Inconsolata', 'Courier New', monospace;
+}
+
+body {
+    /* El cuerpo del texto utilizará el estilo Monospace asignado a --tt */
+    font-family: var(--tt) !important;
+}
+
+/* Forzar que todos los encabezados utilicen la combinación limpia Sans-Serif */
+h1, h2, h3, h4, h5, h6,
+.section-title, 
+#logo #logotype__text {
+    font-family: var(--sf) !important;
+}
+
+/* Mantener el diseño original de versalitas/itálicas del tema pero con la nueva fuente */
+h2, h3, h4 {
+    font-style: italic;
+}
+
+/* Estilo para bloques de código y etiquetas <kbd>: se mantiene Monospace nativo */
+code, pre>code, kbd {
+    font-family: var(--tt) !important;
+}
