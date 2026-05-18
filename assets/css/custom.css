@@ -1,3 +1,31 @@
+/* Formateo del Logo en Texto Plano */
+#logo a, 
+.logotype {
+    font-family: var(--tt), monospace !important; /* Fuerza la tipografía de la web */
+    font-weight: 800 !important; /* Negrita intensa */
+    font-size: var(--normalsize) !important; /* Tamaño controlado, sutil como el resto */
+    text-transform: none !important; /* Evita que se fuerce a mayúsculas si no querés */
+    color: var(--fg) !important; /* Color principal */
+    letter-spacing: -0.02em !important;
+    
+    /* EFECTO: Relieve fino de contorno que se mantiene nítido en tamaños chicos */
+    text-shadow: 
+        1px 1px 0px var(--bg), 
+        -1px -1px 0px var(--bg), 
+        1px -1px 0px var(--bg), 
+        -1px 1px 0px var(--bg),
+        0px 2px 4px rgba(255, 255, 255, 0.15) !important; /* Destello sutil inferior */
+        
+    transition: color 0.2s ease, text-shadow 0.2s ease !important;
+}
+
+/* Efecto al pasar el cursor por encima (Hover) */
+#logo a:hover {
+    color: var(--ac) !important; /* Cambia al color de acento del jardín */
+    text-shadow: 0px 0px 8px var(--ac) !important; /* Genera un leve brillo de neón */
+    text-decoration: none !important;
+}
+
 /* 1. AJUSTES DINÁMICOS Y TAMAÑO DE FUENTE BASE */
 :root {
     /* Altura del header más compacta para subir el contenido */
