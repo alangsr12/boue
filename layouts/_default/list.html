@@ -5,33 +5,46 @@
 {{- $slides := where .Site.RegularPages "Type" "slide" }}
 
 <style>
-    /* Estilo base para móviles */
+    /* 1. AJUSTE GLOBAL PARA MÓVILES: Margen moderado y alineado */
     @media (max-width: 640px) {
+        :root { 
+            --void: 1rem !important; /* Margen ligero para alinear con logo/menu */
+        }
         body { font-family: var(--tt), monospace !important; }
+        body > aside.has-crsl { width: 100vw !important; height: 100vw !important; position: relative !important; float: none !important; }
+        body > main#home { height: auto !important; overflow-y: visible !important; padding: 0 var(--void) !important; }
     }
 
-    /* CASO A: HOME PRINCIPAL (PÁGINA 1) */
+    /* 2. CASO A: HOME PRINCIPAL (PÁGINA 1) */
     {{- if and .IsHome (not $paginator.HasPrev) $enableSlide $slides }}
-    body { margin: auto !important; max-width: 2560px !important; }
-    body > aside.has-crsl { 
-        position: sticky; position: -webkit-sticky; 
-        left: 0; float: left; padding: 1rem; 
-        width: 38vw; height: var(--vbody); 
+    @media (min-width: 641px) {
+        body { margin: auto !important; max-width: 2560px !important; }
+        body > aside.has-crsl { 
+            position: sticky; position: -webkit-sticky; 
+            left: 0; float: left; padding: 1rem; 
+            width: 38vw; height: var(--vbody); 
+        }
+        body > main#home { height: var(--vbody); min-height: unset; overflow-y: auto; }
+        #list-posts > div, .textwidth { width: 100% !important; max-width: 100% !important; margin-left: 0 !important; }
+        main#home { --golden-ratio: 100% !important; --void: 0 !important; }
+        .feed-item h1, .list-day a { width: 100% !important; display: block !important; }
     }
-    body > main#home { height: var(--vbody); min-height: unset; overflow-y: auto; }
-    #list-posts > div, .textwidth { width: 100% !important; max-width: 100% !important; margin-left: 0 !important; }
-    main#home { --golden-ratio: 100% !important; --void: 0 !important; }
-    .feed-item h1, .list-day a { width: 100% !important; display: block !important; }
     {{- end }}
 
-    /* CASO B: SUBPÁGINAS (PÁGINA 2, 3...) */
+    /* 3. CASO B: SUBPÁGINAS (PÁGINA 2+) */
     {{- if and .IsHome $paginator.HasPrev }}
-    main#home { max-width: var(--max-width) !important; margin: 0 auto !important; padding: 0 var(--void) !important; }
-    #list-posts > div, .textwidth { width: var(--golden-ratio) !important; margin: 0 auto !important; }
+    main#home { 
+        max-width: var(--max-width) !important; 
+        margin: 0 auto !important; 
+        padding: 0 var(--void) !important; 
+    }
+    #list-posts > div, .textwidth { 
+        width: var(--golden-ratio) !important; 
+        margin: 0 auto !important; 
+    }
     {{- end }}
 </style>
 {{- end -}}
-
 {{- define "aside" -}}
     {{- $paginator := partial "paginator.html" . }}
     {{- $enableSlide := not site.Params.home.disableSlide }}
