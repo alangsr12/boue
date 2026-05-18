@@ -23,37 +23,27 @@
     {{- end }}
     {{ partial "head/css/inline.html" . -}}
     <!-- INICIO DE TÍTULOS ELÁSTICOS -->
-   <style>
-    /* 1. Atacamos la variable raíz solo para la Home para que todo sea elástico */
-    main#home {
+<style>
+    /* 1. Forzamos la variable al 100% en el nivel más alto del contenido */
+    body > main#home {
         --golden-ratio: 100% !important;
         --max-width: 100% !important;
     }
 
-    /* 2. Forzamos al contenedor del feed a ignorar cualquier restricción de ancho */
-    main#home #list-posts,
-    main#home #list-posts > div,
-    main#home .textwidth {
+    /* 2. Liberamos los contenedores que viste en list.css */
+    #list-posts > div, 
+    .list-year > div,
+    .textwidth {
         width: 100% !important;
         max-width: 100% !important;
         margin-left: 0 !important;
-        margin-right: 0 !important;
     }
 
-    /* 3. Ajustamos los títulos y los bloques de días (según tu list.css) */
-    .feed-item, 
-    .list-year, 
-    .list-year > div, 
+    /* 3. Aseguramos que el enlace del post no tenga márgenes restrictivos */
     .list-day a {
         width: 100% !important;
-        max-width: 100% !important;
-        display: block !important;
-    }
-
-    /* 4. Eliminamos el padding lateral que el tema añade por defecto (var--void) */
-    main#home #list-posts {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
     }
 </style>
     <!-- FIN DE TÍTULOS ELÁSTICOS -->
