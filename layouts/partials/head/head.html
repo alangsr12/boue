@@ -23,33 +23,27 @@
     {{- end }}
     {{ partial "head/css/inline.html" . -}}
     <!-- INICIO DE TÍTULOS ELÁSTICOS -->
-    <style>
-    /* 1. Liberar el contenedor principal que "atrapa" a los posts */
-    main#home #list-posts, 
-    main#home #list-posts > div,
-    main#home .textwidth {
-        width: 100% !important; /* Rompe el 61.8% de la proporción áurea */
+   <style>
+    /* 1. Redefinimos la proporción áurea a 100% solo para la Home */
+    /* Esto libera automáticamente todos los bloques del sitio en esa página */
+    main#home {
+        --golden-ratio: 100% !important;
+    }
+
+    /* 2. Forzamos al contenedor del feed a estirarse por completo */
+    /* Según tu archivo list.css, estos son los selectores clave [4] */
+    #list-posts > div, 
+    .list-year > div,
+    .textwidth {
+        width: 100% !important;
         max-width: 100% !important;
         margin-left: 0 !important;
     }
 
-    /* 2. Ajustar el bloque de años y días (visto en tu list.css línea 156) */
-    .list-year, 
-    .list-year > div,
+    /* 3. Aseguramos que los enlaces de los posts usen todo el ancho elástico */
     .list-day a {
         width: 100% !important;
-        display: block !important;
-    }
-
-    /* 3. Asegurar que el título dentro del feed use todo el ancho */
-    .feed-item h1 {
-        width: 100% !important;
-        max-width: 100% !important;
-    }
-
-    /* 4. Opcional: Si quieres que el texto del año no flote a la derecha */
-    .list-year.descending {
-        margin-left: 0 !important;
+        padding-left: 0 !important;
     }
 </style>
     <!-- FIN DE TÍTULOS ELÁSTICOS -->
