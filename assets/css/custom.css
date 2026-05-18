@@ -172,3 +172,17 @@ hr.ldots::after {
         padding-right: 0 !important;
     }
 }
+/* Alinear el menú únicamente con la columna derecha (Main) */
+body > header.pagewidth {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding: 0 2rem 0 0 !important; /* Quita el aire de la izquierda */
+    max-width: 100% !important;
+}
+
+#top-nav {
+    width: 62vw !important; /* Ocupa exactamente el equivalente al ancho de la columna derecha */
+    margin-left: auto !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
