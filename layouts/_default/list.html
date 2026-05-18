@@ -4,7 +4,8 @@
     {{- $enableSlide := not site.Params.home.disableSlide }}
     {{- $slides := where .Site.RegularPages "Type" "slide" }}
     <style>
-        @media (max-width: 960px) { body { font-family: var(--tt), monospace !important; } }
+        /* Reducimos el límite de 960px a 640px para que solo afecte a celulares reales */
+        @media (max-width: 640px) { body { font-family: var(--tt), monospace !important; } }
     </style>
     {{- if and .IsHome (not $paginator.HasPrev) $enableSlide $slides }}
         <style>
@@ -68,7 +69,7 @@
             {{- with .Content }} {{ partial "hero.html" $ }} <hr class="hide"/> {{- end }}
         {{- else }}
             {{- if .IsSection }}<div id="list-subsection" class="has-crsl">{{ partial "list/sections.html" (dict "class" "crsl" "cover" true "page" .) }}<hr class="hide"/></div>{{- end }}
-            {{- if ne .Params.Position "aside" }}{{- with .Content }}{{ partial "hero.html" $ }}<hr class="hide"/>{{- end }}{{- end }}
+            {{- if ne .Params.Position "aside" }}{{- with .Content }} {{ partial "hero.html" $ }} <hr class="hide"/> {{- end }}{{- end }}
         {{- end }}
     {{- end }}
 {{- end -}}
@@ -101,7 +102,7 @@
             <header {{ with .Data.Singular }}id="{{ . }}"{{ end }} class="section-title">
                 <strong id="list-post-heading">
                     {{- if .IsHome }}{{- if $firstPage }}{{ i18n "recent" $paginator.NumberOfElements }}{{- else }}{{ i18n "postsOn" $paginator.NumberOfElements }} {{ .Site.Title }} {{ printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}{{- end }}
-                    {{- else }}{{- $title := .LinkTitle }}{{- if eq (lower $title) (lower (i18n "posts" 1)) }}{{- i18n "allPosts" }}{{- if not $firstPage }}{{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}{{- end }}{{- else if eq (lower $title) (lower (i18n "articles" 1)) }}{{- i18n "articles" }}{{- else if eq .Data.Singular "author" }}{{- i18n "postsBy" }}: {{ $title }}{{- else }}<span class="{{ .Data.Singular }}">{{ $title }}</span>{{- end }}{{- end }}
+                    {{- else }} {{- $title := .LinkTitle }}{{- if eq (lower $title) (lower (i18n "posts" 1)) }}{{- i18n "allPosts" }}{{- if not $firstPage }}{{- printf "- %s %d" (i18n "pages" 1) $paginator.PageNumber }}{{- end }}{{- else if eq (lower $title) (lower (i18n "articles" 1)) }}{{- i18n "articles" }}{{- else if eq .Data.Singular "author" }}{{- i18n "postsBy" }}: {{ $title }}{{- else }}<span class="{{ .Data.Singular }}">{{ $title }}</span>{{- end }}{{- end }}
                 </strong><hr class="hide"/>
             </header>
             {{- if $liViewCondition }}{{ template "li" . }}
