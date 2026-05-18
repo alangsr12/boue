@@ -150,7 +150,7 @@
     {{ "" | safeHTML }}
     {{- $noIndent := or site.Params.Posts.NoIndent .Params.NoIndent }}
     {{- $justifying := or site.Params.Posts.Justifying .Params.Justifying }}
-    <style>
+<style>
         /* graceful degradation fallback */
         body {max-width: 786px; margin: auto; padding: 2rem;}
         img {max-width: 86vw;}
@@ -189,6 +189,24 @@
 
         code, pre, pre>code, kbd {
             font-family: var(--tt) !important;
+        }
+
+        /* ==========================================================================
+           LIMPIEZA DE EXCESO DE ESTILOS (NORMALIZACIÓN VISUAL)
+           ========================================================================== */
+
+        /* Quitamos las mayúsculas forzadas en subtítulos secundarios (Colofón, También te puede interesar, Historial) */
+        h3, h4, .colophon-title, .related-title, .history-title {
+            text-transform: none !important;
+            letter-spacing: normal !important;
+            font-size: 1.1rem !important;
+        }
+
+        /* Normalizamos el texto de las etiquetas, fechas del historial y datos del colofón */
+        .post-tags a, .history-list li, .colophon-content, .post-meta, time {
+            font-weight: 400 !important;
+            font-size: 0.9rem !important;
+            text-transform: none !important;
         }
     </style>
 {{- end }}
