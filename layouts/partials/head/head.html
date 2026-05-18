@@ -22,26 +22,4 @@
         <style>{{ .Content | safeCSS }}</style>
     {{- end }}
     {{ partial "head/css/inline.html" . -}}
-    <!-- INICIO DE TÍTULOS ELÁSTICOS -->
-<style>
-    /* Atacamos exactamente el selector que encontraste en la página pública */
-    #list-posts > div, 
-    .textwidth {
-        width: 100% !important; 
-        max-width: 100% !important;
-    }
-
-    /* Liberamos también los elementos internos que viste en el list.css */
-    .list-year > div, 
-    .list-day a {
-        width: 100% !important;
-    }
-
-    /* Forzamos que la variable no actúe como freno en la Home */
-    main#home {
-        --golden-ratio: 100% !important;
-        --void: 0 !important;
-    }
-</style>
-    <!-- FIN DE TÍTULOS ELÁSTICOS -->
 {{ end }}

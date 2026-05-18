@@ -75,6 +75,30 @@
 {{- end -}}
 
 {{- define "main" -}}
+<style>
+    /* Atacamos el selector que encontraste bloqueado al 61.8% */
+    #list-posts > div, 
+    .textwidth, 
+    div[role="feed"] {
+        width: 100% !important; 
+        max-width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    /* Liberamos los títulos para que usen todo el ancho elástico */
+    .feed-item h1, 
+    .list-day a, 
+    .list-day a span {
+        width: 100% !important;
+        display: block !important;
+    }
+
+    /* Forzamos que las variables de diseño no actúen como freno */
+    main#home {
+        --golden-ratio: 100% !important;
+        --void: 0 !important;
+    }
+</style>
     {{- $paginator := partial "paginator.html" . }}
     {{- $firstPage := not $paginator.HasPrev }}
     {{- $noContent := and (or .IsHome .IsSection) (eq (len $paginator.Pages) 0) (not .Content) }}
