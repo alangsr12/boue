@@ -24,25 +24,30 @@
     {{ partial "head/css/inline.html" . -}}
     <!-- INICIO DE TÍTULOS ELÁSTICOS -->
     <style>
-        /* 1. Liberar el contenedor del feed para que no sea rígido */
-        #list-posts > div, 
-        .list-year.textwidth {
-            width: 95% !important; /* Cambia el 61.8% por un ancho elástico */
-            max-width: var(--max-width);
-        }
+    /* 1. Forzar al contenedor del feed a usar TODO el espacio que queda al lado del slide */
+    main#home #list-posts,
+    main#home #list-posts > div,
+    main#home .textwidth {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 
-        /* 2. Hacer que los títulos se ajusten al ancho disponible */
-        .feed-item h1, 
-        .list-day a span {
-            width: 100% !important;
-            display: inline-block;
-        }
+    /* 2. Hacer que los títulos de los posts y la lista cronológica sean elásticos */
+    .feed-item, 
+    .list-year,
+    .list-day a {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
 
-        /* 3. Ajuste para la vista cronológica por fechas */
-        .list-day a {
-            width: 100% !important;
-            max-width: 100% !important;
-        }
-    </style>
+    /* 3. Asegurar que el título interno no tenga margen restrictivo */
+    .feed-item h1, 
+    .list-day a span {
+        display: block !important;
+        width: 100% !important;
+    }
+</style>
     <!-- FIN DE TÍTULOS ELÁSTICOS -->
 {{ end }}
