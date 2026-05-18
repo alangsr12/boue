@@ -99,6 +99,33 @@
         --void: 0 !important;
     }
 </style>
+{{- if and .IsHome $paginator.HasPrev }}
+<style>
+    /* Estilos exclusivos para /page/2/ y siguientes */
+    main#home {
+        /* Centramos el contenido usando el ancho máximo del tema (58rem) */
+        max-width: var(--max-width) !important; 
+        margin-left: auto !important;
+        margin-right: auto !important;
+        /* Aplicamos el padding lateral responsivo nativo del tema (--void) */
+        padding: 0 var(--void) !important; 
+    }
+
+    /* Restauramos la proporción áurea para que la lectura sea cómoda */
+    #list-posts > div, 
+    .textwidth {
+        width: var(--golden-ratio) !important;
+        margin: 0 auto !important;
+    }
+
+    /* En estas páginas, los títulos no deben ser tan anchos para no cansar la vista */
+    .feed-item h1, 
+    .list-day a span {
+        width: auto !important;
+        max-width: 100%;
+    }
+</style>
+{{- end }}
     {{- $paginator := partial "paginator.html" . }}
     {{- $firstPage := not $paginator.HasPrev }}
     {{- $noContent := and (or .IsHome .IsSection) (eq (len $paginator.Pages) 0) (not .Content) }}
